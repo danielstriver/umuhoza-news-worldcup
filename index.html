@@ -297,6 +297,7 @@ img{display:block}
 .empty p{font-size:13px;line-height:1.6}
 @keyframes spin{to{transform:rotate(360deg)}}
 .spin{width:16px;height:16px;border:2px solid var(--border);border-top-color:var(--gold);border-radius:50%;animation:spin .7s linear infinite;flex-shrink:0}
+@keyframes skpulse{0%,100%{opacity:.35}50%{opacity:.7}}
 .loading{display:flex;align-items:center;justify-content:center;gap:10px;padding:32px;color:var(--muted);font-size:12px}
 </style>
 </head>
@@ -398,6 +399,7 @@ img{display:block}
 
 <script>
 /* ═══ STATE ══════════════════════════════════════════════════════════ */
+const MEM=new Map();  // in-memory JSON cache — survives filter/tab switches
 let files=[], seasons=[], year=null;
 let matches=[], cuptree=null, standings=null;
 let filterMode='date', roundKeys=[], roundIdx=0;
@@ -418,6 +420,13 @@ function flagEl(t={},size=22){
 
 /* ═══ BOOT ══════════════════════════════════════════════════════════ */
 async function boot(){
+  // Speculatively prefetch the two most recent seasons while file index loads.
+  // If seasons[0] matches, activateSeason() gets instant MEM hits.
+  ['2026','2022'].forEach(y=>{
+    get(`/output/${y}/matches.json`);
+    get(`/output/${y}/standings.json`);
+    get(`/output/${y}/cuptree.json`);
+  });
   await doRefresh();
   if(seasons.length) await activateSeason(seasons[0]);
   initPan();
@@ -438,9 +447,30 @@ function buildSeasonBar(yrs){
 }
 
 /* ═══ SEASON ════════════════════════════════════════════════════════ */
+function showSidebarSkeleton(){
+  const bars=[90,70,80,65,75,85,70,60].map(w=>`
+    <div style="display:flex;align-items:center;gap:10px;padding:11px 12px;border-bottom:1px solid rgba(46,54,80,.3)">
+      <div style="width:62px;display:flex;flex-direction:column;gap:5px;align-items:center">
+        <div style="height:11px;width:38px;border-radius:4px;background:var(--card2);animation:skpulse 1.1s ease infinite"></div>
+        <div style="height:9px;width:24px;border-radius:4px;background:var(--card2);animation:skpulse 1.1s ease infinite"></div>
+      </div>
+      <div style="flex:1;display:flex;flex-direction:column;gap:8px">
+        <div style="height:12px;width:${w}%;border-radius:4px;background:var(--card2);animation:skpulse 1.1s ease infinite"></div>
+        <div style="height:12px;width:${w-10}%;border-radius:4px;background:var(--card2);animation:skpulse 1.1s ease infinite"></div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-end">
+        <div style="height:14px;width:28px;border-radius:4px;background:var(--card2);animation:skpulse 1.1s ease infinite"></div>
+        <div style="height:14px;width:28px;border-radius:4px;background:var(--card2);animation:skpulse 1.1s ease infinite"></div>
+      </div>
+    </div>`).join('');
+  document.getElementById('sb-list').innerHTML=bars;
+}
+
 async function activateSeason(y){
   year=y; activeEid=null; evData=null; selGroup=null;
   buildSeasonBar(seasons);
+  // Show skeleton immediately so the user sees activity
+  showSidebarSkeleton();
   const[m,s,c]=await Promise.all([
     get(`/output/${y}/matches.json`),
     get(`/output/${y}/standings.json`),
@@ -494,9 +524,8 @@ function navRound(dir){
   renderSidebar();
 }
 
-function renderSidebar(){
-  const el=document.getElementById('sb-list');
-  if(!matches.length){el.innerHTML=`<div class="empty"><div class="ico">📅</div><p>No matches loaded</p></div>`;return;}
+function buildRows(){
+  if(!matches.length)return[];
   let evts=[...matches].sort((a,b)=>(a.startTimestamp||0)-(b.startTimestamp||0));
   if(filterMode==='round'&&roundIdx>0){
     const[selKey]=roundKeys[roundIdx];
@@ -514,7 +543,21 @@ function renderSidebar(){
       parts.push(matchRow(ev));
     }
   }
-  el.innerHTML=parts.join('')||`<div class="empty"><p>No matches in this round</p></div>`;
+  return parts;
+}
+
+function renderSidebar(){
+  const el=document.getElementById('sb-list');
+  if(!matches.length){el.innerHTML=`<div class="empty"><div class="ico">📅</div><p>No matches loaded</p></div>`;return;}
+  const parts=buildRows();
+  if(!parts.length){el.innerHTML=`<div class="empty"><p>No matches in this round</p></div>`;return;}
+  // Paint first 22 rows synchronously (fills the viewport), rest on idle
+  const CHUNK=22;
+  el.innerHTML=parts.slice(0,CHUNK).join('');
+  if(parts.length>CHUNK){
+    const idle=window.requestIdleCallback||(fn=>setTimeout(fn,0));
+    idle(()=>el.insertAdjacentHTML('beforeend',parts.slice(CHUNK).join('')));
+  }
 }
 
 function matchRow(ev){
@@ -1043,7 +1086,16 @@ function buildPdStats(p,pid,matchStats){
 }
 
 /* ═══ UTIL ══════════════════════════════════════════════════════════ */
-async function get(url){try{const r=await fetch(url,{cache:'force-cache'});return r.ok?await r.json():null;}catch{return null;}}
+async function get(url){
+  if(MEM.has(url))return MEM.get(url);
+  try{
+    const r=await fetch(url,{cache:'force-cache'});
+    if(!r.ok)return null;
+    const d=await r.json();
+    MEM.set(url,d);
+    return d;
+  }catch{return null;}
+}
 
 boot();
 </script>

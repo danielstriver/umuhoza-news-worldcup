@@ -6,8 +6,10 @@ Usage:  python server.py
 Then open http://localhost:8765
 """
 
+import gzip
+import hashlib
+import io
 import json
-import os
 import time
 import urllib.request
 import urllib.error
@@ -33,86 +35,136 @@ HEADERS = {
     ),
     "Accept": "application/json, image/*, */*",
     "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
     "Referer": "https://www.sofascore.com/",
     "Origin": "https://www.sofascore.com",
 }
 
 SOFASCORE_API = "https://api.sofascore.com/api/v1"
 
+# ── In-memory file index (rebuilt every 30 s) ──────────────────────────────
+_FILES_CACHE: list | None = None
+_FILES_TS: float = 0.0
+_FILES_TTL: float = 30.0
 
-def proxy_get(url: str, binary=False, cache_path: Path = None):
-    """Fetch from Sofascore API; cache result on disk."""
+
+def get_file_index() -> list:
+    global _FILES_CACHE, _FILES_TS
+    if _FILES_CACHE is not None and time.monotonic() - _FILES_TS < _FILES_TTL:
+        return _FILES_CACHE
+    files = []
+    for f in sorted(OUTPUT.rglob("*.json")):
+        if "_cache" in f.parts:
+            continue
+        rel = f.relative_to(OUTPUT).as_posix()
+        files.append({"path": rel, "size": f.stat().st_size})
+    _FILES_CACHE = files
+    _FILES_TS = time.monotonic()
+    return files
+
+
+# ── Gzip helpers ───────────────────────────────────────────────────────────
+def gz(data: bytes, level: int = 6) -> bytes:
+    buf = io.BytesIO()
+    with gzip.GzipFile(fileobj=buf, mode="wb", compresslevel=level) as f:
+        f.write(data)
+    return buf.getvalue()
+
+
+def etag_of(data: bytes) -> str:
+    return '"' + hashlib.md5(data, usedforsecurity=False).hexdigest()[:16] + '"'
+
+
+# ── Remote fetch with disk cache ───────────────────────────────────────────
+def proxy_get(url: str, binary: bool = False, cache_path: Path = None):
     if cache_path and cache_path.exists():
         return cache_path.read_bytes() if binary else cache_path.read_text(encoding="utf-8")
     try:
         req = urllib.request.Request(url, headers=HEADERS)
         with urllib.request.urlopen(req, timeout=12) as resp:
-            data = resp.read()
+            raw = resp.read()
+            if resp.headers.get("Content-Encoding") == "gzip":
+                raw = gzip.decompress(raw)
         if cache_path:
             cache_path.parent.mkdir(parents=True, exist_ok=True)
-            cache_path.write_bytes(data)
-        return data if binary else data.decode("utf-8", errors="replace")
-    except Exception as e:
+            cache_path.write_bytes(raw)
+        return raw if binary else raw.decode("utf-8", errors="replace")
+    except Exception:
         return None
 
 
 class Handler(BaseHTTPRequestHandler):
     def log_message(self, fmt, *args):
-        pass
+        pass  # silence access log
 
-    def send_json(self, data, status=200):
-        body = json.dumps(data, ensure_ascii=False).encode("utf-8")
-        self.send_response(status)
-        self.send_header("Content-Type", "application/json; charset=utf-8")
-        self.send_header("Content-Length", str(len(body)))
-        self.send_header("Access-Control-Allow-Origin", "*")
-        self.end_headers()
-        self.wfile.write(body)
+    def _wants_gz(self) -> bool:
+        return "gzip" in self.headers.get("Accept-Encoding", "")
 
-    def send_bytes(self, data: bytes, content_type: str, status=200):
+    def _write(self, body: bytes, content_type: str, status: int = 200,
+               extra: dict | None = None) -> None:
+        is_binary = content_type.startswith("image/")
+        use_gz = self._wants_gz() and not is_binary and len(body) > 860
+        payload = gz(body) if use_gz else body
         self.send_response(status)
         self.send_header("Content-Type", content_type)
-        self.send_header("Content-Length", str(len(data)))
+        self.send_header("Content-Length", str(len(payload)))
         self.send_header("Access-Control-Allow-Origin", "*")
-        self.send_header("Cache-Control", "max-age=604800, immutable")
+        if use_gz:
+            self.send_header("Content-Encoding", "gzip")
+            self.send_header("Vary", "Accept-Encoding")
+        if extra:
+            for k, v in extra.items():
+                self.send_header(k, v)
         self.end_headers()
-        self.wfile.write(data)
+        self.wfile.write(payload)
 
-    def send_file(self, path: Path):
+    def send_json(self, data, status: int = 200) -> None:
+        body = json.dumps(data, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+        self._write(body, "application/json; charset=utf-8", status)
+
+    def send_bytes(self, data: bytes, ct: str, cache_age: int = 604800) -> None:
+        self._write(data, ct, extra={"Cache-Control": f"max-age={cache_age}, immutable"})
+
+    def send_file(self, path: Path) -> None:
         if not path.exists():
             self.send_json({"error": "not found"}, 404)
             return
         data = path.read_bytes()
-        ct = "application/json" if path.suffix == ".json" else "text/html; charset=utf-8"
-        self.send_bytes(data, ct)
+        etag = etag_of(data)
+        if self.headers.get("If-None-Match") == etag:
+            self.send_response(304)
+            self.send_header("ETag", etag)
+            self.end_headers()
+            return
+        if path.suffix == ".json":
+            self._write(data, "application/json",
+                        extra={"ETag": etag,
+                               "Cache-Control": "max-age=60, must-revalidate"})
+        else:
+            self._write(data, "text/html; charset=utf-8",
+                        extra={"ETag": etag, "Cache-Control": "no-cache"})
 
-    def do_OPTIONS(self):
+    def do_OPTIONS(self) -> None:
         self.send_response(200)
         self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Access-Control-Allow-Methods", "GET, OPTIONS")
         self.end_headers()
 
-    def do_GET(self):
+    def do_GET(self) -> None:
         parsed = urlparse(self.path)
         path   = unquote(parsed.path).rstrip("/")
 
         # ── file index ──────────────────────────────────────────────────────
         if path == "/api/files":
-            files = []
-            for f in sorted(OUTPUT.rglob("*.json")):
-                if "_cache" in f.parts:
-                    continue
-                rel = f.relative_to(OUTPUT).as_posix()
-                files.append({"path": rel, "size": f.stat().st_size})
-            self.send_json({"files": files})
+            self.send_json({"files": get_file_index()})
             return
 
         # ── player profile JSON ─────────────────────────────────────────────
         m = re.match(r"^/api/player/(\d+)$", path)
         if m:
             pid = m.group(1)
-            cache = CACHE / "players" / f"{pid}.json"
-            raw = proxy_get(f"{SOFASCORE_API}/player/{pid}", cache_path=cache)
+            cp  = CACHE / "players" / f"{pid}.json"
+            raw = proxy_get(f"{SOFASCORE_API}/player/{pid}", cache_path=cp)
             if raw:
                 try:
                     self.send_json(json.loads(raw))
@@ -125,30 +177,29 @@ class Handler(BaseHTTPRequestHandler):
         # ── player image ────────────────────────────────────────────────────
         m = re.match(r"^/api/player/(\d+)/image$", path)
         if m:
-            pid = m.group(1)
-            cache = CACHE / "player_img" / f"{pid}.png"
-            data = proxy_get(f"{SOFASCORE_API}/player/{pid}/image", binary=True, cache_path=cache)
+            pid  = m.group(1)
+            cp   = CACHE / "player_img" / f"{pid}.png"
+            data = proxy_get(f"{SOFASCORE_API}/player/{pid}/image", binary=True, cache_path=cp)
             if data:
                 self.send_bytes(data, "image/png")
             else:
-                # send a 1x1 transparent png as fallback
-                fallback = bytes([
+                # 1×1 transparent PNG fallback
+                self.send_bytes(bytes([
                     0x89,0x50,0x4E,0x47,0x0D,0x0A,0x1A,0x0A,0x00,0x00,0x00,0x0D,
                     0x49,0x48,0x44,0x52,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x01,
                     0x08,0x02,0x00,0x00,0x00,0x90,0x77,0x53,0xDE,0x00,0x00,0x00,
                     0x0C,0x49,0x44,0x41,0x54,0x08,0xD7,0x63,0x60,0x60,0x60,0x00,
                     0x00,0x00,0x04,0x00,0x01,0x27,0x07,0x4C,0x4F,0x00,0x00,0x00,
                     0x00,0x49,0x45,0x4E,0x44,0xAE,0x42,0x60,0x82
-                ])
-                self.send_bytes(fallback, "image/png")
+                ]), "image/png")
             return
 
         # ── team image ──────────────────────────────────────────────────────
         m = re.match(r"^/api/team/(\d+)/image$", path)
         if m:
-            tid = m.group(1)
-            cache = CACHE / "team_img" / f"{tid}.png"
-            data = proxy_get(f"{SOFASCORE_API}/team/{tid}/image", binary=True, cache_path=cache)
+            tid  = m.group(1)
+            cp   = CACHE / "team_img" / f"{tid}.png"
+            data = proxy_get(f"{SOFASCORE_API}/team/{tid}/image", binary=True, cache_path=cp)
             if data:
                 self.send_bytes(data, "image/png")
             else:
@@ -157,8 +208,7 @@ class Handler(BaseHTTPRequestHandler):
 
         # ── output JSON files ───────────────────────────────────────────────
         if path.startswith("/output/"):
-            rel = path[len("/output/"):]
-            self.send_file(OUTPUT / rel)
+            self.send_file(OUTPUT / path[len("/output/"):])
             return
 
         # ── everything else → index.html ────────────────────────────────────
@@ -167,6 +217,8 @@ class Handler(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     CACHE.mkdir(parents=True, exist_ok=True)
+    print("Indexing output files…", end=" ", flush=True)
+    print(f"{len(get_file_index())} files indexed.")
     server = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
     print(f"World Cup dashboard  →  http://localhost:{PORT}")
     print("Press Ctrl+C to stop.\n")
