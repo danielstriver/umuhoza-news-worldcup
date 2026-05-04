@@ -1,0 +1,384 @@
+{
+  "cupTrees": [
+    {
+      "id": 20819,
+      "name": "World Cup 1930, Knockout stage",
+      "tournament": {
+        "name": "FIFA World Cup, Knockout",
+        "slug": "world-cup-knockout-stage",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 20,
+          "id": 1468,
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব",
+              "ru": "Мир"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "FIFA World Cup",
+          "slug": "world-championship",
+          "primaryColorHex": "#d20a11",
+          "secondaryColorHex": "#e8bb57",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "priority": 20,
+            "id": 1468,
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব",
+                "ru": "Мир"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 685796,
+          "id": 16,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس العالم",
+              "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+              "hi": "वर्ल्ड चैंपियनशिप"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 803,
+        "isLive": false,
+        "id": 3948,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بطولة العالم - مرحلة الإقصاء",
+            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, নকআউট স্টেজ",
+            "hi": "वर्ल्ड चैंपियनशिप, नॉकआउट स्टेज"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "currentRound": 2,
+      "rounds": [
+        {
+          "order": 1,
+          "type": 2,
+          "description": "Semifinals",
+          "blocks": [
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 1,
+              "result": "6:1",
+              "homeTeamScore": "6",
+              "awayTeamScore": "1",
+              "participants": [
+                {
+                  "team": {
+                    "name": "Uruguay",
+                    "slug": "uruguay",
+                    "shortName": "Uruguay",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 238037,
+                    "nameCode": "URU",
+                    "ranking": 17,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4725,
+                    "teamColors": {
+                      "primary": "#7eacfe",
+                      "secondary": "#000000",
+                      "text": "#000000"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "أوروغواي",
+                        "bn": "উরুগুয়ে",
+                        "hi": "उरुग्वे",
+                        "ru": "Уругвай"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": true,
+                  "order": 1,
+                  "id": 2912242
+                },
+                {
+                  "team": {
+                    "name": "Yugoslavia",
+                    "slug": "yugoslavia",
+                    "shortName": "Yugoslavia",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1516,
+                    "nameCode": "YUG",
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 23498,
+                    "teamColors": {
+                      "primary": "#e11302",
+                      "secondary": "#003893",
+                      "text": "#003893"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "يوغسلافيا",
+                        "ru": "Югославия"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 2912243
+                }
+              ],
+              "hasNextRoundLink": true,
+              "eventInProgress": false,
+              "id": 1601602,
+              "events": [
+                10182834
+              ],
+              "blockId": 1,
+              "seriesStartDateTimestamp": -1244365200,
+              "automaticProgression": false
+            },
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 2,
+              "result": "6:1",
+              "homeTeamScore": "6",
+              "awayTeamScore": "1",
+              "participants": [
+                {
+                  "team": {
+                    "name": "Argentina",
+                    "slug": "argentina",
+                    "shortName": "Argentina",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1539536,
+                    "nameCode": "ARG",
+                    "ranking": 3,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4819,
+                    "teamColors": {
+                      "primary": "#66ccff",
+                      "secondary": "#ffffff",
+                      "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "الأرجنتين",
+                        "bn": "আর্জেন্টিনা",
+                        "hi": "अर्जेंटीना",
+                        "ru": "Аргентина"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": true,
+                  "order": 1,
+                  "id": 2912244
+                },
+                {
+                  "team": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "shortName": "USA",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 134718,
+                    "nameCode": "USA",
+                    "ranking": 16,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4724,
+                    "teamColors": {
+                      "primary": "#ffffff",
+                      "secondary": "#ff0000",
+                      "text": "#ff0000"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "الولايات المتحدة",
+                        "bn": "ইউএসএ",
+                        "hi": "यूएसए",
+                        "ru": "США"
+                      },
+                      "shortNameTranslation": {
+                        "ar": "الولايات المتحدة"
+                      }
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 2912245
+                }
+              ],
+              "hasNextRoundLink": true,
+              "eventInProgress": false,
+              "id": 1601603,
+              "events": [
+                10182833
+              ],
+              "blockId": 2,
+              "seriesStartDateTimestamp": -1244451600,
+              "automaticProgression": false
+            }
+          ],
+          "id": 91896
+        },
+        {
+          "order": 2,
+          "type": 1,
+          "description": "Final",
+          "blocks": [
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 1,
+              "result": "4:2",
+              "homeTeamScore": "4",
+              "awayTeamScore": "2",
+              "participants": [
+                {
+                  "team": {
+                    "name": "Uruguay",
+                    "slug": "uruguay",
+                    "shortName": "Uruguay",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 238037,
+                    "nameCode": "URU",
+                    "ranking": 17,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4725,
+                    "teamColors": {
+                      "primary": "#7eacfe",
+                      "secondary": "#000000",
+                      "text": "#000000"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "أوروغواي",
+                        "bn": "উরুগুয়ে",
+                        "hi": "उरुग्वे",
+                        "ru": "Уругвай"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": true,
+                  "sourceBlockId": 1,
+                  "order": 1,
+                  "id": 2912246
+                },
+                {
+                  "team": {
+                    "name": "Argentina",
+                    "slug": "argentina",
+                    "shortName": "Argentina",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1539536,
+                    "nameCode": "ARG",
+                    "ranking": 3,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4819,
+                    "teamColors": {
+                      "primary": "#66ccff",
+                      "secondary": "#ffffff",
+                      "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "الأرجنتين",
+                        "bn": "আর্জেন্টিনা",
+                        "hi": "अर्जेंटीना",
+                        "ru": "Аргентина"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2,
+                  "order": 2,
+                  "id": 2912247
+                }
+              ],
+              "hasNextRoundLink": false,
+              "eventInProgress": false,
+              "id": 1601604,
+              "events": [
+                10182835
+              ],
+              "blockId": 1,
+              "seriesStartDateTimestamp": -1244106000,
+              "automaticProgression": false
+            }
+          ],
+          "id": 91897
+        }
+      ],
+      "type": 1,
+      "showSingleParticipantByeBlocks": false,
+      "hideRoundsWithoutParticipants": false
+    }
+  ]
+}

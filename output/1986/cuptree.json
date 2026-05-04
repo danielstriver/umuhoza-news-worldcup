@@ -1,0 +1,1599 @@
+{
+  "cupTrees": [
+    {
+      "id": 20891,
+      "name": "World Cup 1986, Playoffs",
+      "tournament": {
+        "name": "FIFA World Cup, Knockout",
+        "slug": "world-cup-knockout-stage",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 20,
+          "id": 1468,
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব",
+              "ru": "Мир"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "FIFA World Cup",
+          "slug": "world-championship",
+          "primaryColorHex": "#d20a11",
+          "secondaryColorHex": "#e8bb57",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "priority": 20,
+            "id": 1468,
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব",
+                "ru": "Мир"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 685796,
+          "id": 16,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس العالم",
+              "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+              "hi": "वर्ल्ड चैंपियनशिप"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 803,
+        "isLive": false,
+        "id": 3948,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بطولة العالم - مرحلة الإقصاء",
+            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, নকআউট স্টেজ",
+            "hi": "वर्ल्ड चैंपियनशिप, नॉकआउट स्टेज"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "currentRound": 4,
+      "rounds": [
+        {
+          "order": 1,
+          "type": 8,
+          "description": "1/8",
+          "blocks": [
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 1,
+              "result": "1:0",
+              "homeTeamScore": "1",
+              "awayTeamScore": "0",
+              "participants": [
+                {
+                  "team": {
+                    "name": "Argentina",
+                    "slug": "argentina",
+                    "shortName": "Argentina",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1539536,
+                    "nameCode": "ARG",
+                    "ranking": 3,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4819,
+                    "teamColors": {
+                      "primary": "#66ccff",
+                      "secondary": "#ffffff",
+                      "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "الأرجنتين",
+                        "bn": "আর্জেন্টিনা",
+                        "hi": "अर्जेंटीना",
+                        "ru": "Аргентина"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": true,
+                  "order": 1,
+                  "id": 2924641
+                },
+                {
+                  "team": {
+                    "name": "Uruguay",
+                    "slug": "uruguay",
+                    "shortName": "Uruguay",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 238037,
+                    "nameCode": "URU",
+                    "ranking": 17,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4725,
+                    "teamColors": {
+                      "primary": "#7eacfe",
+                      "secondary": "#000000",
+                      "text": "#000000"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "أوروغواي",
+                        "bn": "উরুগুয়ে",
+                        "hi": "उरुग्वे",
+                        "ru": "Уругвай"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 2924642
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 1609866,
+              "events": [
+                7846746
+              ],
+              "blockId": 1,
+              "seriesStartDateTimestamp": 519314400,
+              "automaticProgression": false
+            },
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 2,
+              "result": "3:0",
+              "homeTeamScore": "3",
+              "awayTeamScore": "0",
+              "participants": [
+                {
+                  "team": {
+                    "name": "England",
+                    "slug": "england",
+                    "shortName": "England",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 994694,
+                    "nameCode": "ENG",
+                    "ranking": 4,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4713,
+                    "teamColors": {
+                      "primary": "#ffffff",
+                      "secondary": "#cc0000",
+                      "text": "#cc0000"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "انجلترا",
+                        "bn": "ইংল্যান্ড",
+                        "hi": "इंग्लैंड",
+                        "ru": "Англия"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": true,
+                  "order": 1,
+                  "id": 2924643
+                },
+                {
+                  "team": {
+                    "name": "Paraguay",
+                    "slug": "paraguay",
+                    "shortName": "Paraguay",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 93782,
+                    "nameCode": "PAR",
+                    "ranking": 40,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4789,
+                    "teamColors": {
+                      "primary": "#ff0000",
+                      "secondary": "#045ca3",
+                      "text": "#045ca3"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "باراغواي",
+                        "bn": "প্যারাগুয়ে",
+                        "hi": "पराग्वे",
+                        "ru": "Парагвай"
+                      },
+                      "shortNameTranslation": {
+                        "ar": "باراغواي"
+                      }
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 2924644
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 1609867,
+              "events": [
+                7846751
+              ],
+              "blockId": 2,
+              "seriesStartDateTimestamp": 519487200,
+              "automaticProgression": false
+            },
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 3,
+              "result": "1:5",
+              "homeTeamScore": "1",
+              "awayTeamScore": "5",
+              "participants": [
+                {
+                  "team": {
+                    "name": "Denmark",
+                    "slug": "denmark",
+                    "shortName": "Denmark",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 164878,
+                    "nameCode": "DEN",
+                    "ranking": 20,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4476,
+                    "teamColors": {
+                      "primary": "#cc0000",
+                      "secondary": "#ffffff",
+                      "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "الدنمارك",
+                        "bn": "ডেনমার্ক",
+                        "hi": "डेनमार्क",
+                        "ru": "Дания"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 2924645
+                },
+                {
+                  "team": {
+                    "name": "Spain",
+                    "slug": "spain",
+                    "shortName": "Spain",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1596971,
+                    "nameCode": "ESP",
+                    "ranking": 2,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4698,
+                    "teamColors": {
+                      "primary": "#cc0000",
+                      "secondary": "#ffffff",
+                      "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "إسبانيا",
+                        "bn": "স্পেন",
+                        "hi": "स्पेन",
+                        "ru": "Испания"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": true,
+                  "order": 2,
+                  "id": 2924646
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 1609868,
+              "events": [
+                7846750
+              ],
+              "blockId": 3,
+              "seriesStartDateTimestamp": 519487200,
+              "automaticProgression": false
+            },
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 4,
+              "result": "3:4",
+              "homeTeamScore": "3",
+              "awayTeamScore": "4",
+              "participants": [
+                {
+                  "team": {
+                    "name": "USSR",
+                    "slug": "ussr",
+                    "shortName": "USSR",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1555,
+                    "nameCode": "USS",
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 290289,
+                    "teamColors": {
+                      "primary": "#cc0000",
+                      "secondary": "#fccc00",
+                      "text": "#fccc00"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "الاتحاد السوفيتي",
+                        "ru": "Сове́тский Сою́з"
+                      },
+                      "shortNameTranslation": {
+                        "ar": "الاتحاد السوفيتي"
+                      }
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 2924647
+                },
+                {
+                  "team": {
+                    "name": "Belgium",
+                    "slug": "belgium",
+                    "shortName": "Belgium",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 382418,
+                    "nameCode": "BEL",
+                    "ranking": 9,
+                    "national": true,
+                    "type": 0,
+                    "id": 4717,
+                    "teamColors": {
+                      "primary": "#ff0033",
+                      "secondary": "#000000",
+                      "text": "#000000"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "بلجيكا",
+                        "bn": "বেলজিয়াম",
+                        "hi": "बेल्जियम",
+                        "ru": "Бельгия"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": true,
+                  "order": 2,
+                  "id": 2924648
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 1609869,
+              "events": [
+                7846744
+              ],
+              "blockId": 4,
+              "seriesStartDateTimestamp": 519228000,
+              "automaticProgression": false
+            },
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 5,
+              "result": "4:0",
+              "homeTeamScore": "4",
+              "awayTeamScore": "0",
+              "participants": [
+                {
+                  "team": {
+                    "name": "Brazil",
+                    "slug": "brazil",
+                    "shortName": "Brazil",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 2097368,
+                    "nameCode": "BRA",
+                    "ranking": 6,
+                    "national": true,
+                    "type": 0,
+                    "id": 4748,
+                    "teamColors": {
+                      "primary": "#ffff00",
+                      "secondary": "#009933",
+                      "text": "#009933"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "البرازيل",
+                        "bn": "ব্রাজিল",
+                        "hi": "ब्राजील",
+                        "ru": "Бразилия"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": true,
+                  "order": 1,
+                  "id": 2924649
+                },
+                {
+                  "team": {
+                    "name": "Poland",
+                    "slug": "poland",
+                    "shortName": "Poland",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 243418,
+                    "nameCode": "POL",
+                    "ranking": 35,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4703,
+                    "teamColors": {
+                      "primary": "#ffffff",
+                      "secondary": "#ff0000",
+                      "text": "#ff0000"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "بولندا",
+                        "bn": "পোল্যান্ড",
+                        "hi": "पोलैंड",
+                        "ru": "Польша"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 2924650
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 1609870,
+              "events": [
+                7846747
+              ],
+              "blockId": 5,
+              "seriesStartDateTimestamp": 519314400,
+              "automaticProgression": false
+            },
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 6,
+              "result": "0:2",
+              "homeTeamScore": "0",
+              "awayTeamScore": "2",
+              "participants": [
+                {
+                  "team": {
+                    "name": "Italy",
+                    "slug": "italy",
+                    "shortName": "Italy",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 777541,
+                    "nameCode": "ITA",
+                    "ranking": 12,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4707,
+                    "teamColors": {
+                      "primary": "#0066ff",
+                      "secondary": "#ffffff",
+                      "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "إيطاليا",
+                        "bn": "ইতালি",
+                        "hi": "इटली",
+                        "ru": "Италия"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 2924651
+                },
+                {
+                  "team": {
+                    "name": "France",
+                    "slug": "france",
+                    "shortName": "France",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1138031,
+                    "nameCode": "FRA",
+                    "ranking": 1,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4481,
+                    "teamColors": {
+                      "primary": "#01509e",
+                      "secondary": "#e30613",
+                      "text": "#e30613"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "فرنسا",
+                        "bn": "ফ্রান্স",
+                        "hi": "फ्रांस",
+                        "ru": "Франция"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": true,
+                  "order": 2,
+                  "id": 2924652
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 1609871,
+              "events": [
+                7846749
+              ],
+              "blockId": 6,
+              "seriesStartDateTimestamp": 519400800,
+              "automaticProgression": false
+            },
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 7,
+              "result": "0:1",
+              "homeTeamScore": "0",
+              "awayTeamScore": "1",
+              "participants": [
+                {
+                  "team": {
+                    "name": "Morocco",
+                    "slug": "morocco",
+                    "shortName": "Morocco",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 710842,
+                    "nameCode": "MOR",
+                    "ranking": 8,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4778,
+                    "teamColors": {
+                      "primary": "#ff0000",
+                      "secondary": "#006600",
+                      "text": "#006600"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "المغرب",
+                        "bn": "মরক্কো",
+                        "hi": "मोरक्को",
+                        "ru": "Марокко"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 2924653
+                },
+                {
+                  "team": {
+                    "name": "West Germany",
+                    "slug": "west-germany",
+                    "shortName": "West Germany",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 985,
+                    "nameCode": "WGE",
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 290288,
+                    "teamColors": {
+                      "primary": "#ffffff",
+                      "secondary": "#ffffff",
+                      "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "ألمانيا الغربية",
+                        "ru": "Германия"
+                      },
+                      "shortNameTranslation": {
+                        "ar": "ألمانيا الغربية"
+                      }
+                    }
+                  },
+                  "winner": true,
+                  "order": 2,
+                  "id": 2924654
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 1609872,
+              "events": [
+                7846748
+              ],
+              "blockId": 7,
+              "seriesStartDateTimestamp": 519400800,
+              "automaticProgression": false
+            },
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 8,
+              "result": "2:0",
+              "homeTeamScore": "2",
+              "awayTeamScore": "0",
+              "participants": [
+                {
+                  "team": {
+                    "name": "Mexico",
+                    "slug": "mexico",
+                    "shortName": "Mexico",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 252824,
+                    "nameCode": "MEX",
+                    "ranking": 15,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4781,
+                    "teamColors": {
+                      "primary": "#1a4d3e",
+                      "secondary": "#960000",
+                      "text": "#960000"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "المكسيك",
+                        "bn": "মেক্সিকো",
+                        "hi": "मेक्सिको",
+                        "ru": "Мексика"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": true,
+                  "order": 1,
+                  "id": 2924655
+                },
+                {
+                  "team": {
+                    "name": "Bulgaria",
+                    "slug": "bulgaria",
+                    "shortName": "Bulgaria",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 41721,
+                    "nameCode": "BUL",
+                    "ranking": 86,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4716,
+                    "teamColors": {
+                      "primary": "#ffffff",
+                      "secondary": "#00924a",
+                      "text": "#00924a"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "بلغاريا",
+                        "bn": "বুলগেরিয়া",
+                        "hi": "बुल्गारिया",
+                        "ru": "Болгария"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 2924656
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 1609873,
+              "events": [
+                7846745
+              ],
+              "blockId": 8,
+              "seriesStartDateTimestamp": 519228000,
+              "automaticProgression": false
+            }
+          ],
+          "id": 92134
+        },
+        {
+          "order": 2,
+          "type": 4,
+          "description": "Quarterfinals",
+          "blocks": [
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 1,
+              "result": "2:1",
+              "homeTeamScore": "2",
+              "awayTeamScore": "1",
+              "participants": [
+                {
+                  "team": {
+                    "name": "Argentina",
+                    "slug": "argentina",
+                    "shortName": "Argentina",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1539536,
+                    "nameCode": "ARG",
+                    "ranking": 3,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4819,
+                    "teamColors": {
+                      "primary": "#66ccff",
+                      "secondary": "#ffffff",
+                      "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "الأرجنتين",
+                        "bn": "আর্জেন্টিনা",
+                        "hi": "अर्जेंटीना",
+                        "ru": "Аргентина"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": true,
+                  "sourceBlockId": 1,
+                  "order": 1,
+                  "id": 2924657
+                },
+                {
+                  "team": {
+                    "name": "England",
+                    "slug": "england",
+                    "shortName": "England",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 994694,
+                    "nameCode": "ENG",
+                    "ranking": 4,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4713,
+                    "teamColors": {
+                      "primary": "#ffffff",
+                      "secondary": "#cc0000",
+                      "text": "#cc0000"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "انجلترا",
+                        "bn": "ইংল্যান্ড",
+                        "hi": "इंग्लैंड",
+                        "ru": "Англия"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2,
+                  "order": 2,
+                  "id": 2924658
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 1609874,
+              "events": [
+                7846755
+              ],
+              "blockId": 1,
+              "seriesStartDateTimestamp": 519832800,
+              "automaticProgression": false
+            },
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 2,
+              "result": "1:1",
+              "homeTeamScore": "1 (4)",
+              "awayTeamScore": "1 (5)",
+              "participants": [
+                {
+                  "team": {
+                    "name": "Spain",
+                    "slug": "spain",
+                    "shortName": "Spain",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1596971,
+                    "nameCode": "ESP",
+                    "ranking": 2,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4698,
+                    "teamColors": {
+                      "primary": "#cc0000",
+                      "secondary": "#ffffff",
+                      "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "إسبانيا",
+                        "bn": "স্পেন",
+                        "hi": "स्पेन",
+                        "ru": "Испания"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 3,
+                  "order": 1,
+                  "id": 2924659
+                },
+                {
+                  "team": {
+                    "name": "Belgium",
+                    "slug": "belgium",
+                    "shortName": "Belgium",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 382418,
+                    "nameCode": "BEL",
+                    "ranking": 9,
+                    "national": true,
+                    "type": 0,
+                    "id": 4717,
+                    "teamColors": {
+                      "primary": "#ff0033",
+                      "secondary": "#000000",
+                      "text": "#000000"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "بلجيكا",
+                        "bn": "বেলজিয়াম",
+                        "hi": "बेल्जियम",
+                        "ru": "Бельгия"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": true,
+                  "sourceBlockId": 4,
+                  "order": 2,
+                  "id": 3473830
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 1609875,
+              "events": [
+                7846754
+              ],
+              "blockId": 2,
+              "seriesStartDateTimestamp": 519832800,
+              "automaticProgression": false
+            },
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 3,
+              "result": "1:1",
+              "homeTeamScore": "1 (3)",
+              "awayTeamScore": "1 (4)",
+              "participants": [
+                {
+                  "team": {
+                    "name": "Brazil",
+                    "slug": "brazil",
+                    "shortName": "Brazil",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 2097368,
+                    "nameCode": "BRA",
+                    "ranking": 6,
+                    "national": true,
+                    "type": 0,
+                    "id": 4748,
+                    "teamColors": {
+                      "primary": "#ffff00",
+                      "secondary": "#009933",
+                      "text": "#009933"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "البرازيل",
+                        "bn": "ব্রাজিল",
+                        "hi": "ब्राजील",
+                        "ru": "Бразилия"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 5,
+                  "order": 1,
+                  "id": 2924661
+                },
+                {
+                  "team": {
+                    "name": "France",
+                    "slug": "france",
+                    "shortName": "France",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1138031,
+                    "nameCode": "FRA",
+                    "ranking": 1,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4481,
+                    "teamColors": {
+                      "primary": "#01509e",
+                      "secondary": "#e30613",
+                      "text": "#e30613"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "فرنسا",
+                        "bn": "ফ্রান্স",
+                        "hi": "फ्रांस",
+                        "ru": "Франция"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": true,
+                  "sourceBlockId": 6,
+                  "order": 2,
+                  "id": 2924662
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 1609876,
+              "events": [
+                7846753
+              ],
+              "blockId": 3,
+              "seriesStartDateTimestamp": 519746400,
+              "automaticProgression": false
+            },
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 4,
+              "result": "0:0",
+              "homeTeamScore": "0 (4)",
+              "awayTeamScore": "0 (1)",
+              "participants": [
+                {
+                  "team": {
+                    "name": "West Germany",
+                    "slug": "west-germany",
+                    "shortName": "West Germany",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 985,
+                    "nameCode": "WGE",
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 290288,
+                    "teamColors": {
+                      "primary": "#ffffff",
+                      "secondary": "#ffffff",
+                      "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "ألمانيا الغربية",
+                        "ru": "Германия"
+                      },
+                      "shortNameTranslation": {
+                        "ar": "ألمانيا الغربية"
+                      }
+                    }
+                  },
+                  "winner": true,
+                  "sourceBlockId": 7,
+                  "order": 1,
+                  "id": 2924663
+                },
+                {
+                  "team": {
+                    "name": "Mexico",
+                    "slug": "mexico",
+                    "shortName": "Mexico",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 252824,
+                    "nameCode": "MEX",
+                    "ranking": 15,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4781,
+                    "teamColors": {
+                      "primary": "#1a4d3e",
+                      "secondary": "#960000",
+                      "text": "#960000"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "المكسيك",
+                        "bn": "মেক্সিকো",
+                        "hi": "मेक्सिको",
+                        "ru": "Мексика"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 8,
+                  "order": 2,
+                  "id": 2924664
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 1609877,
+              "events": [
+                7846752
+              ],
+              "blockId": 4,
+              "seriesStartDateTimestamp": 519746400,
+              "automaticProgression": false
+            }
+          ],
+          "id": 92135
+        },
+        {
+          "order": 3,
+          "type": 2,
+          "description": "Semifinals",
+          "blocks": [
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 1,
+              "result": "2:0",
+              "homeTeamScore": "2",
+              "awayTeamScore": "0",
+              "participants": [
+                {
+                  "team": {
+                    "name": "Argentina",
+                    "slug": "argentina",
+                    "shortName": "Argentina",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1539536,
+                    "nameCode": "ARG",
+                    "ranking": 3,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4819,
+                    "teamColors": {
+                      "primary": "#66ccff",
+                      "secondary": "#ffffff",
+                      "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "الأرجنتين",
+                        "bn": "আর্জেন্টিনা",
+                        "hi": "अर्जेंटीना",
+                        "ru": "Аргентина"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": true,
+                  "sourceBlockId": 1,
+                  "order": 1,
+                  "id": 2924665
+                },
+                {
+                  "team": {
+                    "name": "Belgium",
+                    "slug": "belgium",
+                    "shortName": "Belgium",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 382418,
+                    "nameCode": "BEL",
+                    "ranking": 9,
+                    "national": true,
+                    "type": 0,
+                    "id": 4717,
+                    "teamColors": {
+                      "primary": "#ff0033",
+                      "secondary": "#000000",
+                      "text": "#000000"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "بلجيكا",
+                        "bn": "বেলজিয়াম",
+                        "hi": "बेल्जियम",
+                        "ru": "Бельгия"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2,
+                  "order": 2,
+                  "id": 2924666
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 1609878,
+              "events": [
+                7846756
+              ],
+              "blockId": 1,
+              "seriesStartDateTimestamp": 520092000,
+              "automaticProgression": false
+            },
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 2,
+              "result": "0:2",
+              "homeTeamScore": "0",
+              "awayTeamScore": "2",
+              "participants": [
+                {
+                  "team": {
+                    "name": "France",
+                    "slug": "france",
+                    "shortName": "France",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1138031,
+                    "nameCode": "FRA",
+                    "ranking": 1,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4481,
+                    "teamColors": {
+                      "primary": "#01509e",
+                      "secondary": "#e30613",
+                      "text": "#e30613"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "فرنسا",
+                        "bn": "ফ্রান্স",
+                        "hi": "फ्रांस",
+                        "ru": "Франция"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 3,
+                  "order": 1,
+                  "id": 2924667
+                },
+                {
+                  "team": {
+                    "name": "West Germany",
+                    "slug": "west-germany",
+                    "shortName": "West Germany",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 985,
+                    "nameCode": "WGE",
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 290288,
+                    "teamColors": {
+                      "primary": "#ffffff",
+                      "secondary": "#ffffff",
+                      "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "ألمانيا الغربية",
+                        "ru": "Германия"
+                      },
+                      "shortNameTranslation": {
+                        "ar": "ألمانيا الغربية"
+                      }
+                    }
+                  },
+                  "winner": true,
+                  "sourceBlockId": 4,
+                  "order": 2,
+                  "id": 3473804
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 1609879,
+              "events": [
+                7846757
+              ],
+              "blockId": 2,
+              "seriesStartDateTimestamp": 520092000,
+              "automaticProgression": false
+            }
+          ],
+          "id": 92136
+        },
+        {
+          "order": 4,
+          "type": 1,
+          "description": "Final",
+          "blocks": [
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 1,
+              "result": "3:2",
+              "homeTeamScore": "3",
+              "awayTeamScore": "2",
+              "participants": [
+                {
+                  "team": {
+                    "name": "Argentina",
+                    "slug": "argentina",
+                    "shortName": "Argentina",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1539536,
+                    "nameCode": "ARG",
+                    "ranking": 3,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4819,
+                    "teamColors": {
+                      "primary": "#66ccff",
+                      "secondary": "#ffffff",
+                      "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "الأرجنتين",
+                        "bn": "আর্জেন্টিনা",
+                        "hi": "अर्जेंटीना",
+                        "ru": "Аргентина"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": true,
+                  "sourceBlockId": 1,
+                  "order": 1,
+                  "id": 2924669
+                },
+                {
+                  "team": {
+                    "name": "West Germany",
+                    "slug": "west-germany",
+                    "shortName": "West Germany",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 985,
+                    "nameCode": "WGE",
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 290288,
+                    "teamColors": {
+                      "primary": "#ffffff",
+                      "secondary": "#ffffff",
+                      "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "ألمانيا الغربية",
+                        "ru": "Германия"
+                      },
+                      "shortNameTranslation": {
+                        "ar": "ألمانيا الغربية"
+                      }
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2,
+                  "order": 2,
+                  "id": 2924670
+                }
+              ],
+              "hasNextRoundLink": false,
+              "id": 1609880,
+              "events": [
+                7846759
+              ],
+              "blockId": 1,
+              "seriesStartDateTimestamp": 520437600,
+              "automaticProgression": false
+            },
+            {
+              "finished": true,
+              "matchesInRound": 1,
+              "order": 2,
+              "result": "away won",
+              "homeTeamScore": "2",
+              "awayTeamScore": "4",
+              "participants": [
+                {
+                  "team": {
+                    "name": "Belgium",
+                    "slug": "belgium",
+                    "shortName": "Belgium",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 382418,
+                    "nameCode": "BEL",
+                    "ranking": 9,
+                    "national": true,
+                    "type": 0,
+                    "id": 4717,
+                    "teamColors": {
+                      "primary": "#ff0033",
+                      "secondary": "#000000",
+                      "text": "#000000"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "بلجيكا",
+                        "bn": "বেলজিয়াম",
+                        "hi": "बेल्जियम",
+                        "ru": "Бельгия"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 1,
+                  "order": 1,
+                  "id": 2924671
+                },
+                {
+                  "team": {
+                    "name": "France",
+                    "slug": "france",
+                    "shortName": "France",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1138031,
+                    "nameCode": "FRA",
+                    "ranking": 1,
+                    "disabled": false,
+                    "national": true,
+                    "type": 0,
+                    "id": 4481,
+                    "teamColors": {
+                      "primary": "#01509e",
+                      "secondary": "#e30613",
+                      "text": "#e30613"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ar": "فرنسا",
+                        "bn": "ফ্রান্স",
+                        "hi": "फ्रांस",
+                        "ru": "Франция"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": true,
+                  "sourceBlockId": 2,
+                  "order": 2,
+                  "id": 3473839
+                }
+              ],
+              "hasNextRoundLink": false,
+              "id": 1609881,
+              "events": [
+                7846758
+              ],
+              "blockId": 2,
+              "seriesStartDateTimestamp": 520351200,
+              "automaticProgression": false
+            }
+          ],
+          "id": 92137
+        }
+      ],
+      "type": 1,
+      "showSingleParticipantByeBlocks": false,
+      "hideRoundsWithoutParticipants": false
+    }
+  ]
+}

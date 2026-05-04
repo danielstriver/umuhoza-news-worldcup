@@ -1,0 +1,2307 @@
+{
+  "cupTrees": [
+    {
+      "id": 10560975,
+      "name": "Knockout stage",
+      "tournament": {
+        "name": "FIFA World Cup, Knockout",
+        "slug": "world-cup-knockout-stage",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 20,
+          "id": 1468,
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব",
+              "ru": "Мир"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "FIFA World Cup",
+          "slug": "world-championship",
+          "primaryColorHex": "#d20a11",
+          "secondaryColorHex": "#e8bb57",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "priority": 20,
+            "id": 1468,
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব",
+                "ru": "Мир"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 685796,
+          "id": 16,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس العالم",
+              "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
+              "hi": "वर्ल्ड चैंपियनशिप"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 803,
+        "isLive": false,
+        "id": 3948,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بطولة العالم - مرحلة الإقصاء",
+            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, নকআউট স্টেজ",
+            "hi": "वर्ल्ड चैंपियनशिप, नॉकआउट स्टेज"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "currentRound": 1,
+      "rounds": [
+        {
+          "order": 1,
+          "type": 16,
+          "description": "Round of 32",
+          "blocks": [
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 1,
+              "participants": [
+                {
+                  "team": {
+                    "name": "1E",
+                    "slug": "1e",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1,
+                    "nameCode": "1E",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 476400,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 4893057
+                },
+                {
+                  "team": {
+                    "name": "3A/3B/3C/3D/3F",
+                    "slug": "3a3b3c3d3f",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "3A3",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865220,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 4893058
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585779,
+              "events": [
+                12813014
+              ],
+              "blockId": 2218759,
+              "seriesStartDateTimestamp": 1782765000,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 2,
+              "participants": [
+                {
+                  "team": {
+                    "name": "1I",
+                    "slug": "1i",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "1I",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865181,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 4893061
+                },
+                {
+                  "team": {
+                    "name": "3C/3D/3F/3G/3H",
+                    "slug": "3c3d3f3g3h",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "3C3",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865183,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 4893062
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585780,
+              "events": [
+                12812995
+              ],
+              "blockId": 2218761,
+              "seriesStartDateTimestamp": 1782853200,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 3,
+              "participants": [
+                {
+                  "team": {
+                    "name": "2A",
+                    "slug": "2a",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "2A",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 503080,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 4893063
+                },
+                {
+                  "team": {
+                    "name": "2B",
+                    "slug": "2b",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 2,
+                    "nameCode": "2B",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 476396,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 4893064
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585782,
+              "events": [
+                12813000
+              ],
+              "blockId": 2218763,
+              "seriesStartDateTimestamp": 1782673200,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 4,
+              "participants": [
+                {
+                  "team": {
+                    "name": "1F",
+                    "slug": "1f",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "1F",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 476398,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 4893067
+                },
+                {
+                  "team": {
+                    "name": "2C",
+                    "slug": "2c",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "2C",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 503081,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 4893068
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585783,
+              "events": [
+                12812998
+              ],
+              "blockId": 2218765,
+              "seriesStartDateTimestamp": 1782781200,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 5,
+              "participants": [
+                {
+                  "team": {
+                    "name": "2K",
+                    "slug": "2k",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "2K",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865186,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 4893069
+                },
+                {
+                  "team": {
+                    "name": "2L",
+                    "slug": "2l",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "2L",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865189,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 4893070
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585786,
+              "events": [
+                12812997
+              ],
+              "blockId": 2218767,
+              "seriesStartDateTimestamp": 1783033200,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 6,
+              "participants": [
+                {
+                  "team": {
+                    "name": "H1",
+                    "slug": "h1",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 16,
+                    "nameCode": "1H",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 42076,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 4893073
+                },
+                {
+                  "team": {
+                    "name": "2J",
+                    "slug": "2j",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "2J",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865185,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 4893074
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585787,
+              "events": [
+                12813004
+              ],
+              "blockId": 2218769,
+              "seriesStartDateTimestamp": 1783018800,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 7,
+              "participants": [
+                {
+                  "team": {
+                    "name": "1D",
+                    "slug": "1d",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1,
+                    "nameCode": "1D",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 503076,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 4893075
+                },
+                {
+                  "team": {
+                    "name": "3B/3E/3F/3I/3J",
+                    "slug": "3b3e3f3i3j",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "3B3",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865203,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 4893076
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585789,
+              "events": [
+                12812992
+              ],
+              "blockId": 2218771,
+              "seriesStartDateTimestamp": 1782950400,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 8,
+              "participants": [
+                {
+                  "team": {
+                    "name": "G1",
+                    "slug": "g1",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 22,
+                    "nameCode": "1G",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 42075,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 4893079
+                },
+                {
+                  "team": {
+                    "name": "3A/3E/3H/3I/3J",
+                    "slug": "3a3e3h3i3j",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "3A3",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865221,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 4893080
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585790,
+              "events": [
+                12813013
+              ],
+              "blockId": 2218773,
+              "seriesStartDateTimestamp": 1782936000,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 9,
+              "participants": [
+                {
+                  "team": {
+                    "name": "1C",
+                    "slug": "1c",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "1C",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 476402,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 4893081
+                },
+                {
+                  "team": {
+                    "name": "2F",
+                    "slug": "2f",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "2F",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 476397,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 4893082
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585794,
+              "events": [
+                12813012
+              ],
+              "blockId": 2218775,
+              "seriesStartDateTimestamp": 1782752400,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 10,
+              "participants": [
+                {
+                  "team": {
+                    "name": "2E",
+                    "slug": "2e",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "2E",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 476399,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 4893085
+                },
+                {
+                  "team": {
+                    "name": "2I",
+                    "slug": "2i",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "2I",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865180,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 4893086
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585795,
+              "events": [
+                12812989
+              ],
+              "blockId": 2218777,
+              "seriesStartDateTimestamp": 1782838800,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 11,
+              "participants": [
+                {
+                  "team": {
+                    "name": "1A",
+                    "slug": "1a",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "1A",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 476394,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 4893087
+                },
+                {
+                  "team": {
+                    "name": "3C/3E/3F/3H/3I",
+                    "slug": "3c3e3f3h3i",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "3C3",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865184,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 4893088
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585797,
+              "events": [
+                12813001
+              ],
+              "blockId": 2218779,
+              "seriesStartDateTimestamp": 1782867600,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 12,
+              "participants": [
+                {
+                  "team": {
+                    "name": "1L",
+                    "slug": "1l",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "1L",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865178,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 4893091
+                },
+                {
+                  "team": {
+                    "name": "3E/3H/3I/3J/3K",
+                    "slug": "3e3h3i3j3k",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "3E3",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865179,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 4893092
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585798,
+              "events": [
+                12813020
+              ],
+              "blockId": 2218781,
+              "seriesStartDateTimestamp": 1782921600,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 13,
+              "participants": [
+                {
+                  "team": {
+                    "name": "1J",
+                    "slug": "1j",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "1J",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865182,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 4893093
+                },
+                {
+                  "team": {
+                    "name": "H2",
+                    "slug": "h2",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 22,
+                    "nameCode": "2H",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 42080,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 4893094
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585801,
+              "events": [
+                12812999
+              ],
+              "blockId": 2218783,
+              "seriesStartDateTimestamp": 1783116000,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 14,
+              "participants": [
+                {
+                  "team": {
+                    "name": "2D",
+                    "slug": "2d",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1,
+                    "nameCode": "2D",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 476401,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 4893097
+                },
+                {
+                  "team": {
+                    "name": "G2",
+                    "slug": "g2",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 21,
+                    "nameCode": "2G",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 42079,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 4893098
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585802,
+              "events": [
+                12813018
+              ],
+              "blockId": 2218785,
+              "seriesStartDateTimestamp": 1783101600,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 15,
+              "participants": [
+                {
+                  "team": {
+                    "name": "1B",
+                    "slug": "1b",
+                    "shortName": "1B",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 1,
+                    "nameCode": "1B",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 342103,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                      "nameTranslation": {
+                        "ru": "1B (Евро)"
+                      },
+                      "shortNameTranslation": {}
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 4893099
+                },
+                {
+                  "team": {
+                    "name": "3E/3F/3G/3I/3J",
+                    "slug": "3e3f3g3i3j",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "3E3",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865225,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 4893100
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585804,
+              "events": [
+                12813019
+              ],
+              "blockId": 2218787,
+              "seriesStartDateTimestamp": 1783047600,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 16,
+              "participants": [
+                {
+                  "team": {
+                    "name": "1K",
+                    "slug": "1k",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "1K",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865217,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 4893103
+                },
+                {
+                  "team": {
+                    "name": "3D/3E/3I/3J/3L",
+                    "slug": "3d3e3i3j3l",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "3D3",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865222,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 4893104
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585805,
+              "events": [
+                12813011
+              ],
+              "blockId": 2218789,
+              "seriesStartDateTimestamp": 1783128600,
+              "automaticProgression": false
+            }
+          ],
+          "id": 176156
+        },
+        {
+          "order": 2,
+          "type": 8,
+          "description": "Round of 16",
+          "blocks": [
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 1,
+              "participants": [
+                {
+                  "team": {
+                    "name": "W74",
+                    "slug": "w74",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W74",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865216,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218759,
+                  "order": 1,
+                  "id": 4893059
+                },
+                {
+                  "team": {
+                    "name": "W77",
+                    "slug": "w77",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W77",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865219,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218761,
+                  "order": 2,
+                  "id": 4893060
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585778,
+              "events": [
+                12813010
+              ],
+              "blockId": 2218791,
+              "seriesStartDateTimestamp": 1783198800,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 2,
+              "participants": [
+                {
+                  "team": {
+                    "name": "W73",
+                    "slug": "w73",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W73",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865215,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218763,
+                  "order": 1,
+                  "id": 4893065
+                },
+                {
+                  "team": {
+                    "name": "W75",
+                    "slug": "w75",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W75",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865218,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218765,
+                  "order": 2,
+                  "id": 4893066
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585781,
+              "events": [
+                12813009
+              ],
+              "blockId": 2218793,
+              "seriesStartDateTimestamp": 1783184400,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 3,
+              "participants": [
+                {
+                  "team": {
+                    "name": "W83",
+                    "slug": "w83",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W83",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865199,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218767,
+                  "order": 1,
+                  "id": 4893071
+                },
+                {
+                  "team": {
+                    "name": "W84",
+                    "slug": "w84",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W84",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865202,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218769,
+                  "order": 2,
+                  "id": 4893072
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585785,
+              "events": [
+                12812990
+              ],
+              "blockId": 2218795,
+              "seriesStartDateTimestamp": 1783364400,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 4,
+              "participants": [
+                {
+                  "team": {
+                    "name": "W81",
+                    "slug": "w81",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W81",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865209,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218771,
+                  "order": 1,
+                  "id": 4893077
+                },
+                {
+                  "team": {
+                    "name": "W82",
+                    "slug": "w82",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W82",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865213,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218773,
+                  "order": 2,
+                  "id": 4893078
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585788,
+              "events": [
+                12813002
+              ],
+              "blockId": 2218797,
+              "seriesStartDateTimestamp": 1783382400,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 5,
+              "participants": [
+                {
+                  "team": {
+                    "name": "W76",
+                    "slug": "w76",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W76",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865194,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218775,
+                  "order": 1,
+                  "id": 4893083
+                },
+                {
+                  "team": {
+                    "name": "W78",
+                    "slug": "w78",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W78",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865197,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218777,
+                  "order": 2,
+                  "id": 4893084
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585793,
+              "events": [
+                12813006
+              ],
+              "blockId": 2218799,
+              "seriesStartDateTimestamp": 1783281600,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 6,
+              "participants": [
+                {
+                  "team": {
+                    "name": "W79",
+                    "slug": "w79",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W79",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865211,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218779,
+                  "order": 1,
+                  "id": 4893089
+                },
+                {
+                  "team": {
+                    "name": "W80",
+                    "slug": "w80",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W80",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865214,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218781,
+                  "order": 2,
+                  "id": 4893090
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585796,
+              "events": [
+                12813007
+              ],
+              "blockId": 2218801,
+              "seriesStartDateTimestamp": 1783296000,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 7,
+              "participants": [
+                {
+                  "team": {
+                    "name": "W86",
+                    "slug": "w86",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W86",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865187,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218783,
+                  "order": 1,
+                  "id": 4893095
+                },
+                {
+                  "team": {
+                    "name": "W88",
+                    "slug": "w88",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W88",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865190,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218785,
+                  "order": 2,
+                  "id": 4893096
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585800,
+              "events": [
+                12812993
+              ],
+              "blockId": 2218803,
+              "seriesStartDateTimestamp": 1783440000,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 8,
+              "participants": [
+                {
+                  "team": {
+                    "name": "W85",
+                    "slug": "w85",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W85",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865198,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218787,
+                  "order": 1,
+                  "id": 4893101
+                },
+                {
+                  "team": {
+                    "name": "W87",
+                    "slug": "w87",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W87",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865200,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218789,
+                  "order": 2,
+                  "id": 4893102
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585803,
+              "events": [
+                12812991
+              ],
+              "blockId": 2218805,
+              "seriesStartDateTimestamp": 1783454400,
+              "automaticProgression": false
+            }
+          ],
+          "id": 176157
+        },
+        {
+          "order": 3,
+          "type": 4,
+          "description": "Quarterfinal",
+          "blocks": [
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 1,
+              "participants": [
+                {
+                  "team": {
+                    "name": "W89",
+                    "slug": "w89",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W89",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865208,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218791,
+                  "order": 1,
+                  "id": 4893105
+                },
+                {
+                  "team": {
+                    "name": "W90",
+                    "slug": "w90",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W90",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865212,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218793,
+                  "order": 2,
+                  "id": 4893106
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585777,
+              "events": [
+                12813016
+              ],
+              "blockId": 2218807,
+              "seriesStartDateTimestamp": 1783627200,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 2,
+              "participants": [
+                {
+                  "team": {
+                    "name": "W93",
+                    "slug": "w93",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W93",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865205,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218795,
+                  "order": 1,
+                  "id": 4893107
+                },
+                {
+                  "team": {
+                    "name": "W94",
+                    "slug": "w94",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W94",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865206,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218797,
+                  "order": 2,
+                  "id": 4893108
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585784,
+              "events": [
+                12812994
+              ],
+              "blockId": 2218809,
+              "seriesStartDateTimestamp": 1783710000,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 3,
+              "participants": [
+                {
+                  "team": {
+                    "name": "W91",
+                    "slug": "w91",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W91",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865223,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218799,
+                  "order": 1,
+                  "id": 4893109
+                },
+                {
+                  "team": {
+                    "name": "W92",
+                    "slug": "w92",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W92",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865224,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218801,
+                  "order": 2,
+                  "id": 4893110
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585792,
+              "events": [
+                12813017
+              ],
+              "blockId": 2218811,
+              "seriesStartDateTimestamp": 1783803600,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 4,
+              "participants": [
+                {
+                  "team": {
+                    "name": "W95",
+                    "slug": "w95",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W95",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865192,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218803,
+                  "order": 1,
+                  "id": 4893111
+                },
+                {
+                  "team": {
+                    "name": "W96",
+                    "slug": "w96",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W96",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865195,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218805,
+                  "order": 2,
+                  "id": 4893112
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585799,
+              "events": [
+                12813015
+              ],
+              "blockId": 2218813,
+              "seriesStartDateTimestamp": 1783818000,
+              "automaticProgression": false
+            }
+          ],
+          "id": 176158
+        },
+        {
+          "order": 4,
+          "type": 2,
+          "description": "Semifinal",
+          "blocks": [
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 1,
+              "participants": [
+                {
+                  "team": {
+                    "name": "W97",
+                    "slug": "w97",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W97",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865193,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218807,
+                  "order": 1,
+                  "id": 4893113
+                },
+                {
+                  "team": {
+                    "name": "W98",
+                    "slug": "w98",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W98",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865196,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218809,
+                  "order": 2,
+                  "id": 4893114
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585776,
+              "events": [
+                12813008
+              ],
+              "blockId": 2218815,
+              "seriesStartDateTimestamp": 1784055600,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 2,
+              "participants": [
+                {
+                  "team": {
+                    "name": "W99",
+                    "slug": "w99",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W99",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865188,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218811,
+                  "order": 1,
+                  "id": 4893115
+                },
+                {
+                  "team": {
+                    "name": "W100",
+                    "slug": "w100",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W10",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865191,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218813,
+                  "order": 2,
+                  "id": 4893116
+                }
+              ],
+              "hasNextRoundLink": true,
+              "id": 2585791,
+              "events": [
+                12812996
+              ],
+              "blockId": 2218817,
+              "seriesStartDateTimestamp": 1784142000,
+              "automaticProgression": false
+            }
+          ],
+          "id": 176159
+        },
+        {
+          "order": 5,
+          "type": 1,
+          "description": "Final",
+          "blocks": [
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 1,
+              "participants": [
+                {
+                  "team": {
+                    "name": "W101",
+                    "slug": "w101",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W10",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865201,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218815,
+                  "order": 1,
+                  "id": 4893117
+                },
+                {
+                  "team": {
+                    "name": "W102",
+                    "slug": "w102",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "W10",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865204,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "sourceBlockId": 2218817,
+                  "order": 2,
+                  "id": 4893118
+                }
+              ],
+              "id": 2585775,
+              "events": [
+                12813005
+              ],
+              "blockId": 2218819,
+              "seriesStartDateTimestamp": 1784487600,
+              "automaticProgression": false
+            },
+            {
+              "finished": false,
+              "matchesInRound": 1,
+              "order": 2,
+              "participants": [
+                {
+                  "team": {
+                    "name": "L101",
+                    "slug": "l101",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "L10",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865207,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 1,
+                  "id": 4893119
+                },
+                {
+                  "team": {
+                    "name": "L102",
+                    "slug": "l102",
+                    "gender": "M",
+                    "sport": {
+                      "name": "Football",
+                      "slug": "football",
+                      "id": 1
+                    },
+                    "userCount": 0,
+                    "nameCode": "L10",
+                    "disabled": true,
+                    "national": false,
+                    "type": 0,
+                    "id": 865210,
+                    "teamColors": {
+                      "primary": "#374df5",
+                      "secondary": "#374df5",
+                      "text": "#ffffff"
+                    }
+                  },
+                  "winner": false,
+                  "order": 2,
+                  "id": 4893120
+                }
+              ],
+              "id": 2585806,
+              "events": [
+                12813003
+              ],
+              "blockId": 2218821,
+              "seriesStartDateTimestamp": 1784408400,
+              "automaticProgression": false
+            }
+          ],
+          "id": 176160
+        }
+      ],
+      "type": 1,
+      "showSingleParticipantByeBlocks": false,
+      "hideRoundsWithoutParticipants": false
+    }
+  ]
+}

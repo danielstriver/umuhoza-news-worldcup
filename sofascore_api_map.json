@@ -1,0 +1,187 @@
+{
+  "_note": "Sofascore FIFA World Cup — verified unofficial REST API (May 2026)",
+  "_base": "https://api.sofascore.com/api/v1",
+  "_anti_bot": "All requests MUST originate inside a real browser session. Direct curl/requests returns 403. Use Playwright fetch() injection.",
+  "_unique_tournament_id": 16,
+  "_url": "https://www.sofascore.com/football/tournament/world/world-championship/16",
+
+  "endpoints": {
+    "seasons":    "/unique-tournament/16/seasons",
+    "standings":  "/unique-tournament/16/season/{sid}/standings/total",
+    "standings_home": "/unique-tournament/16/season/{sid}/standings/home",
+    "standings_away": "/unique-tournament/16/season/{sid}/standings/away",
+    "cuptree":    "/unique-tournament/16/season/{sid}/cuptrees",
+    "events_last":"/unique-tournament/16/season/{sid}/events/last/{page}",
+    "events_next":"/unique-tournament/16/season/{sid}/events/next/{page}",
+    "event_stats":  "/event/{eid}/statistics",
+    "event_lineups":"/event/{eid}/lineups",
+    "event_incidents":"/event/{eid}/incidents"
+  },
+
+  "pagination": {
+    "events": "30 events per page. Check hasNextPage boolean in response. Increment page until hasNextPage=false.",
+    "directions": "Use 'last' for finished matches, 'next' for scheduled/future matches."
+  },
+
+  "all_seasons": [
+    {"id": 58210, "year": "2026", "name": "World Cup 2026"},
+    {"id": 41087, "year": "2022", "name": "World Cup 2022"},
+    {"id": 15586, "year": "2018", "name": "World Cup 2018"},
+    {"id":  7528, "year": "2014", "name": "World Cup 2014"},
+    {"id":  2531, "year": "2010", "name": "World Cup 2010"},
+    {"id":    16, "year": "2006", "name": "World Cup 2006"},
+    {"id":  2636, "year": "2002", "name": "World Cup 2002"},
+    {"id":  1151, "year": "1998", "name": "World Cup 1998"},
+    {"id": 17571, "year": "1994", "name": "World Cup 1994"},
+    {"id": 17570, "year": "1990", "name": "World Cup 1990"},
+    {"id": 17569, "year": "1986", "name": "World Cup 1986"},
+    {"id": 17568, "year": "1982", "name": "World Cup 1982"},
+    {"id": 17567, "year": "1978", "name": "World Cup 1978"},
+    {"id": 17566, "year": "1974", "name": "World Cup 1974"},
+    {"id": 17565, "year": "1970", "name": "World Cup 1970"},
+    {"id": 17564, "year": "1966", "name": "World Cup 1966"},
+    {"id": 17563, "year": "1962", "name": "World Cup 1962"},
+    {"id": 17562, "year": "1958", "name": "World Cup 1958"},
+    {"id": 17561, "year": "1954", "name": "World Cup 1954"},
+    {"id": 40714, "year": "1950", "name": "World Cup 1950"},
+    {"id": 17560, "year": "1938", "name": "World Cup 1938"},
+    {"id": 17559, "year": "1934", "name": "World Cup 1934"},
+    {"id": 40712, "year": "1930", "name": "World Cup 1930"}
+  ],
+
+  "url_patterns": {
+    "tournament_page":  "https://www.sofascore.com/football/tournament/world/world-championship/16",
+    "season_tab":       "https://www.sofascore.com/football/tournament/world/world-championship/16#id:{sid}",
+    "season_standings": "https://www.sofascore.com/football/tournament/world/world-championship/16#id:{sid},tab:standings",
+    "season_media":     "https://www.sofascore.com/football/tournament/world/world-championship/16#id:{sid},tab:media"
+  },
+
+  "slug_construction": {
+    "match_page": "https://www.sofascore.com/{event.homeTeam.slug}-{event.awayTeam.slug}/{YYYY-MM-DD}/{event.slug}",
+    "example":    "https://www.sofascore.com/iran-usa/2022-11-29/iran-usa",
+    "fields_from_event_object": {
+      "slug":           "event.slug  (e.g. 'iran-usa')",
+      "homeTeam_slug":  "event.homeTeam.slug",
+      "awayTeam_slug":  "event.awayTeam.slug",
+      "date":           "new Date(event.startTimestamp * 1000).toISOString().slice(0,10)"
+    }
+  },
+
+  "response_shapes": {
+    "seasons_response": {
+      "seasons": [
+        {"id": 41087, "name": "World Cup 2022", "year": "2022",
+         "tournament": {"id": 16, "name": "World Championship", "slug": "world-championship"}}
+      ]
+    },
+    "standings_response": {
+      "standings": [
+        {
+          "name": "Group A",
+          "rows": [
+            {
+              "team": {"id": 0, "name": "", "slug": "", "shortName": "", "nameCode": ""},
+              "position": 1,
+              "matches": 3, "wins": 2, "draws": 1, "losses": 0,
+              "scoresFor": 5, "scoresAgainst": 2, "points": 7
+            }
+          ]
+        }
+      ]
+    },
+    "cuptree_response": {
+      "cupTrees": [
+        {
+          "id": 0,
+          "name": "World Cup 2022",
+          "rounds": [
+            {
+              "order": 1,
+              "description": "Round of 16",
+              "type": "cup",
+              "blocks": [
+                {
+                  "finished": true,
+                  "matchesInRound": 1,
+                  "result": "3:1",
+                  "homeTeamScore": "3",
+                  "awayTeamScore": "1",
+                  "participants": [
+                    {"team": {"id": 0, "name": "Netherlands", "slug": "netherlands", "nameCode": "NED"}},
+                    {"team": {"id": 0, "name": "USA", "slug": "usa", "nameCode": "USA"}}
+                  ],
+                  "events": [{"id": 10230536}]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "events_response": {
+      "events": [
+        {
+          "id": 10230536,
+          "slug": "iran-usa",
+          "homeTeam": {"id": 0, "name": "Iran", "slug": "iran"},
+          "awayTeam": {"id": 0, "name": "USA", "slug": "usa"},
+          "homeScore": {"current": 0, "period1": 0, "period2": 0},
+          "awayScore": {"current": 1, "period1": 0, "period2": 1},
+          "status": {"code": 100, "description": "Ended", "type": "finished"},
+          "startTimestamp": 1669741800,
+          "venue": {"name": "", "city": "", "country": {}},
+          "round": {"round": 3},
+          "tournament": {"id": 16},
+          "season": {"id": 41087}
+        }
+      ],
+      "hasNextPage": true
+    },
+    "statistics_response": {
+      "statistics": [
+        {
+          "period": "ALL",
+          "groups": [
+            {
+              "groupName": "Match overview",
+              "statisticsItems": [
+                {
+                  "name": "Ball possession",
+                  "home": "53%", "away": "47%",
+                  "homeValue": 53, "awayValue": 47,
+                  "renderType": 2,
+                  "key": "ballPossession"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "lineups_response": {
+      "confirmed": true,
+      "home": {
+        "players": [
+          {
+            "player": {"id": 0, "name": "", "slug": "", "position": "G", "jerseyNumber": "1"},
+            "position": "G", "substitute": false, "statistics": {}
+          }
+        ],
+        "formation": "4-3-3",
+        "playerColor": {}
+      },
+      "away": {}
+    },
+    "incidents_response": {
+      "incidents": [
+        {
+          "player": {"id": 0, "name": ""},
+          "time": 44,
+          "type": "goal",
+          "isHome": false,
+          "homeScore": 0, "awayScore": 1
+        }
+      ]
+    }
+  }
+}

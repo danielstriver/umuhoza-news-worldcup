@@ -1,0 +1,5523 @@
+{
+  "event_id": 10230557,
+  "slug": "usa-england",
+  "home": "England",
+  "away": "USA",
+  "status": "finished",
+  "statistics": {
+    "statistics": [
+      {
+        "period": "ALL",
+        "groups": [
+          {
+            "groupName": "Match overview",
+            "statisticsItems": [
+              {
+                "name": "Ball possession",
+                "home": "56%",
+                "away": "44%",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 56,
+                "awayValue": 44,
+                "renderType": 2,
+                "key": "ballPossession"
+              },
+              {
+                "name": "Expected goals",
+                "home": "0.77",
+                "away": "0.63",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 0.77,
+                "awayValue": 0.63,
+                "renderType": 1,
+                "key": "expectedGoals"
+              },
+              {
+                "name": "Big chances",
+                "home": "1",
+                "away": "1",
+                "compareCode": 3,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "bigChanceCreated"
+              },
+              {
+                "name": "Total shots",
+                "home": "8",
+                "away": "10",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 8,
+                "awayValue": 10,
+                "renderType": 1,
+                "key": "totalShotsOnGoal"
+              },
+              {
+                "name": "Goalkeeper saves",
+                "home": "1",
+                "away": "3",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 3,
+                "renderType": 1,
+                "key": "goalkeeperSaves"
+              },
+              {
+                "name": "Corner kicks",
+                "home": "3",
+                "away": "7",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 7,
+                "renderType": 1,
+                "key": "cornerKicks"
+              },
+              {
+                "name": "Fouls",
+                "home": "9",
+                "away": "15",
+                "compareCode": 2,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 9,
+                "awayValue": 15,
+                "renderType": 1,
+                "key": "fouls"
+              },
+              {
+                "name": "Passes",
+                "home": "541",
+                "away": "421",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 541,
+                "awayValue": 421,
+                "renderType": 1,
+                "key": "passes"
+              },
+              {
+                "name": "Tackles",
+                "home": "9",
+                "away": "12",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 9,
+                "awayValue": 12,
+                "renderType": 1,
+                "key": "totalTackle"
+              },
+              {
+                "name": "Free kicks",
+                "home": "14",
+                "away": "9",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 14,
+                "awayValue": 9,
+                "renderType": 1,
+                "key": "freeKicks"
+              }
+            ]
+          },
+          {
+            "groupName": "Shots",
+            "statisticsItems": [
+              {
+                "name": "Total shots",
+                "home": "8",
+                "away": "10",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 8,
+                "awayValue": 10,
+                "renderType": 1,
+                "key": "totalShotsOnGoal"
+              },
+              {
+                "name": "Shots on target",
+                "home": "3",
+                "away": "1",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "shotsOnGoal"
+              },
+              {
+                "name": "Hit woodwork",
+                "home": "0",
+                "away": "1",
+                "compareCode": 2,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "hitWoodwork"
+              },
+              {
+                "name": "Shots off target",
+                "home": "4",
+                "away": "5",
+                "compareCode": 2,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 4,
+                "awayValue": 5,
+                "renderType": 1,
+                "key": "shotsOffGoal"
+              },
+              {
+                "name": "Blocked shots",
+                "home": "1",
+                "away": "4",
+                "compareCode": 2,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 4,
+                "renderType": 1,
+                "key": "blockedScoringAttempt"
+              },
+              {
+                "name": "Shots inside box",
+                "home": "6",
+                "away": "6",
+                "compareCode": 3,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 6,
+                "awayValue": 6,
+                "renderType": 1,
+                "key": "totalShotsInsideBox"
+              },
+              {
+                "name": "Shots outside box",
+                "home": "2",
+                "away": "4",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 2,
+                "awayValue": 4,
+                "renderType": 1,
+                "key": "totalShotsOutsideBox"
+              }
+            ]
+          },
+          {
+            "groupName": "Attack",
+            "statisticsItems": [
+              {
+                "name": "Big chances missed",
+                "home": "1",
+                "away": "1",
+                "compareCode": 3,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "bigChanceMissed"
+              },
+              {
+                "name": "Fouled in final third",
+                "home": "3",
+                "away": "0",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "fouledFinalThird"
+              },
+              {
+                "name": "Offsides",
+                "home": "1",
+                "away": "0",
+                "compareCode": 1,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "offsides"
+              }
+            ]
+          },
+          {
+            "groupName": "Passes",
+            "statisticsItems": [
+              {
+                "name": "Accurate passes",
+                "home": "472",
+                "away": "352",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 472,
+                "awayValue": 352,
+                "renderType": 1,
+                "key": "accuratePasses"
+              },
+              {
+                "name": "Throw-ins",
+                "home": "18",
+                "away": "16",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 18,
+                "awayValue": 16,
+                "renderType": 1,
+                "key": "throwIns"
+              },
+              {
+                "name": "Final third entries",
+                "home": "52",
+                "away": "40",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 52,
+                "awayValue": 40,
+                "renderType": 1,
+                "key": "finalThirdEntries"
+              },
+              {
+                "name": "Long balls",
+                "home": "35/49 (71%)",
+                "away": "19/47 (40%)",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 35,
+                "awayValue": 19,
+                "homeTotal": 49,
+                "awayTotal": 47,
+                "renderType": 3,
+                "key": "accurateLongBalls"
+              },
+              {
+                "name": "Crosses",
+                "home": "3/14 (21%)",
+                "away": "3/16 (19%)",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 3,
+                "awayValue": 3,
+                "homeTotal": 14,
+                "awayTotal": 16,
+                "renderType": 3,
+                "key": "accurateCross"
+              }
+            ]
+          },
+          {
+            "groupName": "Duels",
+            "statisticsItems": [
+              {
+                "name": "Duels",
+                "home": "52%",
+                "away": "48%",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 52,
+                "awayValue": 48,
+                "renderType": 2,
+                "key": "duelWonPercent"
+              },
+              {
+                "name": "Dispossessed",
+                "home": "7",
+                "away": "7",
+                "compareCode": 3,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 7,
+                "awayValue": 7,
+                "renderType": 1,
+                "key": "dispossessed"
+              },
+              {
+                "name": "Ground duels",
+                "home": "28/54 (52%)",
+                "away": "26/54 (48%)",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 28,
+                "awayValue": 26,
+                "homeTotal": 54,
+                "awayTotal": 54,
+                "renderType": 3,
+                "key": "groundDuelsPercentage"
+              },
+              {
+                "name": "Aerial duels",
+                "home": "11/21 (52%)",
+                "away": "10/21 (48%)",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 11,
+                "awayValue": 10,
+                "homeTotal": 21,
+                "awayTotal": 21,
+                "renderType": 3,
+                "key": "aerialDuelsPercentage"
+              },
+              {
+                "name": "Dribbles",
+                "home": "5/10 (50%)",
+                "away": "5/7 (71%)",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 5,
+                "awayValue": 5,
+                "homeTotal": 10,
+                "awayTotal": 7,
+                "renderType": 3,
+                "key": "dribblesPercentage"
+              }
+            ]
+          },
+          {
+            "groupName": "Defending",
+            "statisticsItems": [
+              {
+                "name": "Tackles won",
+                "home": "67%",
+                "away": "58%",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 6,
+                "awayValue": 7,
+                "homeTotal": 9,
+                "awayTotal": 12,
+                "renderType": 4,
+                "key": "wonTacklePercent"
+              },
+              {
+                "name": "Total tackles",
+                "home": "9",
+                "away": "12",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 9,
+                "awayValue": 12,
+                "renderType": 1,
+                "key": "totalTackle"
+              },
+              {
+                "name": "Interceptions",
+                "home": "9",
+                "away": "3",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 9,
+                "awayValue": 3,
+                "renderType": 1,
+                "key": "interceptionWon"
+              },
+              {
+                "name": "Clearances",
+                "home": "19",
+                "away": "15",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 19,
+                "awayValue": 15,
+                "renderType": 1,
+                "key": "totalClearance"
+              }
+            ]
+          },
+          {
+            "groupName": "Goalkeeping",
+            "statisticsItems": [
+              {
+                "name": "Total saves",
+                "home": "1",
+                "away": "3",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 3,
+                "renderType": 1,
+                "key": "goalkeeperSaves"
+              },
+              {
+                "name": "Goals prevented",
+                "home": "0.05",
+                "away": "0.35",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 0.0461,
+                "awayValue": 0.3507,
+                "renderType": 1,
+                "key": "goalsPrevented"
+              },
+              {
+                "name": "Goal kicks",
+                "home": "7",
+                "away": "3",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 7,
+                "awayValue": 3,
+                "renderType": 1,
+                "key": "goalKicks"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "period": "1ST",
+        "groups": [
+          {
+            "groupName": "Match overview",
+            "statisticsItems": [
+              {
+                "name": "Ball possession",
+                "home": "62%",
+                "away": "38%",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 62,
+                "awayValue": 38,
+                "renderType": 2,
+                "key": "ballPossession"
+              },
+              {
+                "name": "Expected goals",
+                "home": "0.52",
+                "away": "0.44",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 0.52,
+                "awayValue": 0.44,
+                "renderType": 1,
+                "key": "expectedGoals"
+              },
+              {
+                "name": "Big chances",
+                "home": "0",
+                "away": "1",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "bigChanceCreated"
+              },
+              {
+                "name": "Total shots",
+                "home": "5",
+                "away": "6",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 5,
+                "awayValue": 6,
+                "renderType": 1,
+                "key": "totalShotsOnGoal"
+              },
+              {
+                "name": "Goalkeeper saves",
+                "home": "1",
+                "away": "1",
+                "compareCode": 3,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "goalkeeperSaves"
+              },
+              {
+                "name": "Corner kicks",
+                "home": "2",
+                "away": "2",
+                "compareCode": 3,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 2,
+                "awayValue": 2,
+                "renderType": 1,
+                "key": "cornerKicks"
+              },
+              {
+                "name": "Passes",
+                "home": "301",
+                "away": "181",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 301,
+                "awayValue": 181,
+                "renderType": 1,
+                "key": "passes"
+              },
+              {
+                "name": "Tackles",
+                "home": "3",
+                "away": "5",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 5,
+                "renderType": 1,
+                "key": "totalTackle"
+              },
+              {
+                "name": "Free kicks",
+                "home": "5",
+                "away": "4",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 5,
+                "awayValue": 4,
+                "renderType": 1,
+                "key": "freeKicks"
+              }
+            ]
+          },
+          {
+            "groupName": "Shots",
+            "statisticsItems": [
+              {
+                "name": "Total shots",
+                "home": "5",
+                "away": "6",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 5,
+                "awayValue": 6,
+                "renderType": 1,
+                "key": "totalShotsOnGoal"
+              },
+              {
+                "name": "Shots on target",
+                "home": "1",
+                "away": "1",
+                "compareCode": 3,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "shotsOnGoal"
+              },
+              {
+                "name": "Hit woodwork",
+                "home": "0",
+                "away": "1",
+                "compareCode": 2,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "hitWoodwork"
+              },
+              {
+                "name": "Shots off target",
+                "home": "3",
+                "away": "4",
+                "compareCode": 2,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 4,
+                "renderType": 1,
+                "key": "shotsOffGoal"
+              },
+              {
+                "name": "Blocked shots",
+                "home": "1",
+                "away": "1",
+                "compareCode": 3,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "blockedScoringAttempt"
+              },
+              {
+                "name": "Shots inside box",
+                "home": "3",
+                "away": "5",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 5,
+                "renderType": 1,
+                "key": "totalShotsInsideBox"
+              },
+              {
+                "name": "Shots outside box",
+                "home": "2",
+                "away": "1",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 2,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "totalShotsOutsideBox"
+              }
+            ]
+          },
+          {
+            "groupName": "Attack",
+            "statisticsItems": [
+              {
+                "name": "Big chances missed",
+                "home": "0",
+                "away": "1",
+                "compareCode": 2,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "bigChanceMissed"
+              },
+              {
+                "name": "Fouled in final third",
+                "home": "1",
+                "away": "0",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "fouledFinalThird"
+              },
+              {
+                "name": "Offsides",
+                "home": "0",
+                "away": "0",
+                "compareCode": 3,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "offsides"
+              }
+            ]
+          },
+          {
+            "groupName": "Passes",
+            "statisticsItems": [
+              {
+                "name": "Accurate passes",
+                "home": "261",
+                "away": "146",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 261,
+                "awayValue": 146,
+                "renderType": 1,
+                "key": "accuratePasses"
+              },
+              {
+                "name": "Throw-ins",
+                "home": "11",
+                "away": "10",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 11,
+                "awayValue": 10,
+                "renderType": 1,
+                "key": "throwIns"
+              },
+              {
+                "name": "Final third entries",
+                "home": "23",
+                "away": "16",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 23,
+                "awayValue": 16,
+                "renderType": 1,
+                "key": "finalThirdEntries"
+              },
+              {
+                "name": "Long balls",
+                "home": "20/28 (71%)",
+                "away": "7/18 (39%)",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 20,
+                "awayValue": 7,
+                "homeTotal": 28,
+                "awayTotal": 18,
+                "renderType": 3,
+                "key": "accurateLongBalls"
+              },
+              {
+                "name": "Crosses",
+                "home": "1/7 (14%)",
+                "away": "3/7 (43%)",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 1,
+                "awayValue": 3,
+                "homeTotal": 7,
+                "awayTotal": 7,
+                "renderType": 3,
+                "key": "accurateCross"
+              }
+            ]
+          },
+          {
+            "groupName": "Duels",
+            "statisticsItems": [
+              {
+                "name": "Duels",
+                "home": "50%",
+                "away": "50%",
+                "compareCode": 3,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 50,
+                "awayValue": 50,
+                "renderType": 2,
+                "key": "duelWonPercent"
+              },
+              {
+                "name": "Dispossessed",
+                "home": "4",
+                "away": "2",
+                "compareCode": 1,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 4,
+                "awayValue": 2,
+                "renderType": 1,
+                "key": "dispossessed"
+              },
+              {
+                "name": "Ground duels",
+                "home": "11/20 (55%)",
+                "away": "9/20 (45%)",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 11,
+                "awayValue": 9,
+                "homeTotal": 20,
+                "awayTotal": 20,
+                "renderType": 3,
+                "key": "groundDuelsPercentage"
+              },
+              {
+                "name": "Aerial duels",
+                "home": "5/12 (42%)",
+                "away": "7/12 (58%)",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 5,
+                "awayValue": 7,
+                "homeTotal": 12,
+                "awayTotal": 12,
+                "renderType": 3,
+                "key": "aerialDuelsPercentage"
+              },
+              {
+                "name": "Dribbles",
+                "home": "3/4 (75%)",
+                "away": "0/1 (0%)",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 3,
+                "awayValue": 0,
+                "homeTotal": 4,
+                "awayTotal": 1,
+                "renderType": 3,
+                "key": "dribblesPercentage"
+              }
+            ]
+          },
+          {
+            "groupName": "Defending",
+            "statisticsItems": [
+              {
+                "name": "Tackles won",
+                "home": "100%",
+                "away": "40%",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 3,
+                "awayValue": 2,
+                "homeTotal": 3,
+                "awayTotal": 5,
+                "renderType": 4,
+                "key": "wonTacklePercent"
+              },
+              {
+                "name": "Total tackles",
+                "home": "3",
+                "away": "5",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 5,
+                "renderType": 1,
+                "key": "totalTackle"
+              },
+              {
+                "name": "Interceptions",
+                "home": "4",
+                "away": "0",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 4,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "interceptionWon"
+              },
+              {
+                "name": "Clearances",
+                "home": "6",
+                "away": "9",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 6,
+                "awayValue": 9,
+                "renderType": 1,
+                "key": "totalClearance"
+              }
+            ]
+          },
+          {
+            "groupName": "Goalkeeping",
+            "statisticsItems": [
+              {
+                "name": "Total saves",
+                "home": "1",
+                "away": "1",
+                "compareCode": 3,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "goalkeeperSaves"
+              },
+              {
+                "name": "Goal kicks",
+                "home": "4",
+                "away": "2",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 4,
+                "awayValue": 2,
+                "renderType": 1,
+                "key": "goalKicks"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "period": "2ND",
+        "groups": [
+          {
+            "groupName": "Match overview",
+            "statisticsItems": [
+              {
+                "name": "Ball possession",
+                "home": "49%",
+                "away": "51%",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 49,
+                "awayValue": 51,
+                "renderType": 2,
+                "key": "ballPossession"
+              },
+              {
+                "name": "Expected goals",
+                "home": "0.25",
+                "away": "0.19",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 0.25,
+                "awayValue": 0.19,
+                "renderType": 1,
+                "key": "expectedGoals"
+              },
+              {
+                "name": "Big chances",
+                "home": "1",
+                "away": "0",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "bigChanceCreated"
+              },
+              {
+                "name": "Total shots",
+                "home": "3",
+                "away": "4",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 4,
+                "renderType": 1,
+                "key": "totalShotsOnGoal"
+              },
+              {
+                "name": "Goalkeeper saves",
+                "home": "0",
+                "away": "2",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 2,
+                "renderType": 1,
+                "key": "goalkeeperSaves"
+              },
+              {
+                "name": "Corner kicks",
+                "home": "1",
+                "away": "5",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 5,
+                "renderType": 1,
+                "key": "cornerKicks"
+              },
+              {
+                "name": "Passes",
+                "home": "240",
+                "away": "240",
+                "compareCode": 3,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 240,
+                "awayValue": 240,
+                "renderType": 1,
+                "key": "passes"
+              },
+              {
+                "name": "Tackles",
+                "home": "6",
+                "away": "7",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 6,
+                "awayValue": 7,
+                "renderType": 1,
+                "key": "totalTackle"
+              },
+              {
+                "name": "Free kicks",
+                "home": "9",
+                "away": "5",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 9,
+                "awayValue": 5,
+                "renderType": 1,
+                "key": "freeKicks"
+              }
+            ]
+          },
+          {
+            "groupName": "Shots",
+            "statisticsItems": [
+              {
+                "name": "Total shots",
+                "home": "3",
+                "away": "4",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 4,
+                "renderType": 1,
+                "key": "totalShotsOnGoal"
+              },
+              {
+                "name": "Shots on target",
+                "home": "2",
+                "away": "0",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 2,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "shotsOnGoal"
+              },
+              {
+                "name": "Hit woodwork",
+                "home": "0",
+                "away": "0",
+                "compareCode": 3,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "hitWoodwork"
+              },
+              {
+                "name": "Shots off target",
+                "home": "1",
+                "away": "1",
+                "compareCode": 3,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "shotsOffGoal"
+              },
+              {
+                "name": "Blocked shots",
+                "home": "0",
+                "away": "3",
+                "compareCode": 2,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 3,
+                "renderType": 1,
+                "key": "blockedScoringAttempt"
+              },
+              {
+                "name": "Shots inside box",
+                "home": "3",
+                "away": "1",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "totalShotsInsideBox"
+              },
+              {
+                "name": "Shots outside box",
+                "home": "0",
+                "away": "3",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 3,
+                "renderType": 1,
+                "key": "totalShotsOutsideBox"
+              }
+            ]
+          },
+          {
+            "groupName": "Attack",
+            "statisticsItems": [
+              {
+                "name": "Big chances missed",
+                "home": "1",
+                "away": "0",
+                "compareCode": 1,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "bigChanceMissed"
+              },
+              {
+                "name": "Fouled in final third",
+                "home": "2",
+                "away": "0",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 2,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "fouledFinalThird"
+              },
+              {
+                "name": "Offsides",
+                "home": "1",
+                "away": "0",
+                "compareCode": 1,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "offsides"
+              }
+            ]
+          },
+          {
+            "groupName": "Passes",
+            "statisticsItems": [
+              {
+                "name": "Accurate passes",
+                "home": "211",
+                "away": "206",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 211,
+                "awayValue": 206,
+                "renderType": 1,
+                "key": "accuratePasses"
+              },
+              {
+                "name": "Throw-ins",
+                "home": "7",
+                "away": "6",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 7,
+                "awayValue": 6,
+                "renderType": 1,
+                "key": "throwIns"
+              },
+              {
+                "name": "Final third entries",
+                "home": "29",
+                "away": "24",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 29,
+                "awayValue": 24,
+                "renderType": 1,
+                "key": "finalThirdEntries"
+              },
+              {
+                "name": "Long balls",
+                "home": "15/21 (71%)",
+                "away": "12/29 (41%)",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 15,
+                "awayValue": 12,
+                "homeTotal": 21,
+                "awayTotal": 29,
+                "renderType": 3,
+                "key": "accurateLongBalls"
+              },
+              {
+                "name": "Crosses",
+                "home": "2/7 (29%)",
+                "away": "0/9 (0%)",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 2,
+                "awayValue": 0,
+                "homeTotal": 7,
+                "awayTotal": 9,
+                "renderType": 3,
+                "key": "accurateCross"
+              }
+            ]
+          },
+          {
+            "groupName": "Duels",
+            "statisticsItems": [
+              {
+                "name": "Duels",
+                "home": "53%",
+                "away": "47%",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 53,
+                "awayValue": 47,
+                "renderType": 2,
+                "key": "duelWonPercent"
+              },
+              {
+                "name": "Dispossessed",
+                "home": "3",
+                "away": "5",
+                "compareCode": 2,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 5,
+                "renderType": 1,
+                "key": "dispossessed"
+              },
+              {
+                "name": "Ground duels",
+                "home": "17/34 (50%)",
+                "away": "17/34 (50%)",
+                "compareCode": 3,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 17,
+                "awayValue": 17,
+                "homeTotal": 34,
+                "awayTotal": 34,
+                "renderType": 3,
+                "key": "groundDuelsPercentage"
+              },
+              {
+                "name": "Aerial duels",
+                "home": "6/9 (67%)",
+                "away": "3/9 (33%)",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 6,
+                "awayValue": 3,
+                "homeTotal": 9,
+                "awayTotal": 9,
+                "renderType": 3,
+                "key": "aerialDuelsPercentage"
+              },
+              {
+                "name": "Dribbles",
+                "home": "2/6 (33%)",
+                "away": "5/6 (83%)",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 2,
+                "awayValue": 5,
+                "homeTotal": 6,
+                "awayTotal": 6,
+                "renderType": 3,
+                "key": "dribblesPercentage"
+              }
+            ]
+          },
+          {
+            "groupName": "Defending",
+            "statisticsItems": [
+              {
+                "name": "Tackles won",
+                "home": "50%",
+                "away": "71%",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 3,
+                "awayValue": 5,
+                "homeTotal": 6,
+                "awayTotal": 7,
+                "renderType": 4,
+                "key": "wonTacklePercent"
+              },
+              {
+                "name": "Total tackles",
+                "home": "6",
+                "away": "7",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 6,
+                "awayValue": 7,
+                "renderType": 1,
+                "key": "totalTackle"
+              },
+              {
+                "name": "Interceptions",
+                "home": "5",
+                "away": "3",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 5,
+                "awayValue": 3,
+                "renderType": 1,
+                "key": "interceptionWon"
+              },
+              {
+                "name": "Clearances",
+                "home": "13",
+                "away": "6",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 13,
+                "awayValue": 6,
+                "renderType": 1,
+                "key": "totalClearance"
+              }
+            ]
+          },
+          {
+            "groupName": "Goalkeeping",
+            "statisticsItems": [
+              {
+                "name": "Total saves",
+                "home": "0",
+                "away": "2",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 2,
+                "renderType": 1,
+                "key": "goalkeeperSaves"
+              },
+              {
+                "name": "Goal kicks",
+                "home": "3",
+                "away": "1",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "goalKicks"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "lineups": {
+    "confirmed": true,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "Jordan Pickford",
+            "firstName": "Jordan",
+            "lastName": "Pickford",
+            "slug": "jordan-pickford",
+            "shortName": "J. Pickford",
+            "position": "G",
+            "jerseyNumber": "1",
+            "height": 185,
+            "userCount": 8204,
+            "gender": "M",
+            "sofascoreId": "jpickford1",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 138530,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 762998400,
+            "proposedMarketValueRaw": {
+              "value": 16100000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جوردان بيكفورد",
+                "bn": "জর্ডান পিকফোর্ড",
+                "hi": "जॉर्डन पिकफोर्ड"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. بيكفورد",
+                "bn": "জে.পিকফোর্ড",
+                "hi": "जे. पिकफोर्ड"
+              }
+            }
+          },
+          "teamId": 48,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 24,
+            "accuratePass": 19,
+            "totalLongBalls": 10,
+            "accurateLongBalls": 5,
+            "accurateOwnHalfPasses": 16,
+            "totalOwnHalfPasses": 17,
+            "accurateOppositionHalfPasses": 3,
+            "totalOppositionHalfPasses": 7,
+            "totalClearance": 1,
+            "ballRecovery": 5,
+            "goodHighClaim": 1,
+            "saves": 1,
+            "minutesPlayed": 90,
+            "touches": 31,
+            "rating": 7.1,
+            "possessionLostCtrl": 5,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.00112357,
+            "totalShots": 0,
+            "goalsPrevented": 0.0461,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Kieran Trippier",
+            "slug": "kieran-trippier",
+            "shortName": "K. Trippier",
+            "position": "D",
+            "jerseyNumber": "2",
+            "height": 174,
+            "userCount": 8326,
+            "gender": "M",
+            "sofascoreId": "ktrippier2",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 69256,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 653702400,
+            "proposedMarketValueRaw": {
+              "value": 2300000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كيران تريبيير",
+                "bn": "কাইরান ট্রিপিয়ার",
+                "hi": "किरन ट्रिप्पियर"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. تريبيير",
+                "bn": "কে. ট্রিপিয়ার",
+                "hi": "के.ट्रिप्पियर"
+              }
+            }
+          },
+          "teamId": 39,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 60,
+            "accuratePass": 52,
+            "totalLongBalls": 3,
+            "accurateLongBalls": 2,
+            "accurateOwnHalfPasses": 26,
+            "totalOwnHalfPasses": 28,
+            "accurateOppositionHalfPasses": 28,
+            "totalOppositionHalfPasses": 36,
+            "totalCross": 4,
+            "accurateCross": 2,
+            "aerialLost": 1,
+            "aerialWon": 1,
+            "duelLost": 4,
+            "duelWon": 2,
+            "challengeLost": 1,
+            "dispossessed": 1,
+            "totalContest": 1,
+            "wonContest": 1,
+            "totalClearance": 2,
+            "ballRecovery": 5,
+            "fouls": 1,
+            "minutesPlayed": 90,
+            "touches": 80,
+            "rating": 7,
+            "possessionLostCtrl": 12,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.11311,
+            "keyPass": 2,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "John Stones",
+            "firstName": "John",
+            "lastName": "Stones",
+            "slug": "john-stones",
+            "shortName": "J. Stones",
+            "position": "D",
+            "jerseyNumber": "5",
+            "height": 188,
+            "userCount": 23116,
+            "gender": "M",
+            "sofascoreId": "johnstones5",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 152077,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 770083200,
+            "proposedMarketValueRaw": {
+              "value": 13600000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جون ستونز",
+                "bn": "জন স্টোনস",
+                "hi": "जॉन स्टोन्स"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. ستونز",
+                "bn": "জে. স্টোনস",
+                "hi": "जे. स्टोन्स"
+              }
+            }
+          },
+          "teamId": 17,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 89,
+            "accuratePass": 86,
+            "totalLongBalls": 8,
+            "accurateLongBalls": 7,
+            "accurateOwnHalfPasses": 58,
+            "totalOwnHalfPasses": 58,
+            "accurateOppositionHalfPasses": 28,
+            "totalOppositionHalfPasses": 31,
+            "aerialLost": 1,
+            "aerialWon": 2,
+            "duelLost": 2,
+            "duelWon": 3,
+            "shotOffTarget": 1,
+            "totalClearance": 3,
+            "outfielderBlock": 1,
+            "ballRecovery": 1,
+            "totalTackle": 1,
+            "wonTackle": 1,
+            "fouls": 1,
+            "minutesPlayed": 90,
+            "touches": 97,
+            "rating": 7.5,
+            "possessionLostCtrl": 3,
+            "expectedGoals": 0.0441,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.0259182,
+            "totalShots": 1,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Harry Maguire",
+            "firstName": "Harry",
+            "lastName": "Maguire",
+            "slug": "harry-maguire",
+            "shortName": "H. Maguire",
+            "position": "D",
+            "jerseyNumber": "5",
+            "height": 194,
+            "userCount": 30611,
+            "gender": "M",
+            "sofascoreId": "harrymaguire93",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 149380,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 731289600,
+            "proposedMarketValueRaw": {
+              "value": 10700000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هاري ماغواير",
+                "bn": "হ্যারি ম্যাগুইরে",
+                "hi": "हैरी मैगुइर"
+              },
+              "shortNameTranslation": {
+                "ar": "ه. ماغواير",
+                "bn": "এইচ. ম্যাগুইরে",
+                "hi": "एच. मैगुइर"
+              }
+            }
+          },
+          "teamId": 35,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 81,
+            "accuratePass": 71,
+            "totalLongBalls": 11,
+            "accurateLongBalls": 8,
+            "accurateOwnHalfPasses": 57,
+            "totalOwnHalfPasses": 60,
+            "accurateOppositionHalfPasses": 14,
+            "totalOppositionHalfPasses": 21,
+            "aerialLost": 1,
+            "aerialWon": 3,
+            "duelLost": 4,
+            "duelWon": 5,
+            "challengeLost": 1,
+            "totalContest": 1,
+            "wonContest": 1,
+            "onTargetScoringAttempt": 1,
+            "totalClearance": 8,
+            "outfielderBlock": 1,
+            "interceptionWon": 1,
+            "ballRecovery": 5,
+            "totalTackle": 1,
+            "fouls": 2,
+            "minutesPlayed": 90,
+            "touches": 94,
+            "rating": 7.6,
+            "possessionLostCtrl": 10,
+            "expectedGoals": 0.0487,
+            "expectedGoalsOnTarget": 0.1123,
+            "expectedAssists": 0.00692822,
+            "totalShots": 1,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Luke Shaw",
+            "firstName": "Luke",
+            "lastName": "Shaw",
+            "slug": "luke-shaw",
+            "shortName": "L. Shaw",
+            "position": "D",
+            "jerseyNumber": "23",
+            "height": 178,
+            "userCount": 19550,
+            "gender": "M",
+            "sofascoreId": "lukeshaw23",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 190839,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 805507200,
+            "proposedMarketValueRaw": {
+              "value": 9400000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لوك شو",
+                "bn": "লুক শ",
+                "hi": "ल्यूक शॉ"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. شاو",
+                "bn": "এল. শ",
+                "hi": "एल. शॉ"
+              }
+            }
+          },
+          "teamId": 35,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 73,
+            "accuratePass": 62,
+            "totalLongBalls": 7,
+            "accurateLongBalls": 6,
+            "accurateOwnHalfPasses": 29,
+            "totalOwnHalfPasses": 35,
+            "accurateOppositionHalfPasses": 34,
+            "totalOppositionHalfPasses": 42,
+            "totalCross": 4,
+            "accurateCross": 1,
+            "aerialLost": 1,
+            "aerialWon": 2,
+            "duelLost": 3,
+            "duelWon": 5,
+            "totalContest": 1,
+            "wonContest": 1,
+            "bigChanceCreated": 1,
+            "totalClearance": 1,
+            "interceptionWon": 1,
+            "ballRecovery": 7,
+            "totalTackle": 1,
+            "wasFouled": 1,
+            "fouls": 2,
+            "minutesPlayed": 90,
+            "touches": 91,
+            "rating": 7.8,
+            "possessionLostCtrl": 14,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.41566,
+            "keyPass": 2,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jude Bellingham",
+            "slug": "jude-bellingham",
+            "shortName": "J. Bellingham",
+            "position": "M",
+            "jerseyNumber": "5",
+            "height": 188,
+            "userCount": 1140836,
+            "gender": "M",
+            "sofascoreId": "JudeBell",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 991011,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1056844800,
+            "proposedMarketValueRaw": {
+              "value": 132000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جود بيلينغهام",
+                "bn": "জুড বেলিংহাম",
+                "hi": "जूड बेलिंघम"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. بيلينغهام",
+                "bn": "জে. বেলিংহাম",
+                "hi": "जे. बेलिंघम"
+              }
+            }
+          },
+          "teamId": 2829,
+          "shirtNumber": 22,
+          "jerseyNumber": "22",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 34,
+            "accuratePass": 31,
+            "accurateOwnHalfPasses": 19,
+            "totalOwnHalfPasses": 20,
+            "accurateOppositionHalfPasses": 12,
+            "totalOppositionHalfPasses": 15,
+            "totalCross": 1,
+            "aerialLost": 1,
+            "duelLost": 4,
+            "duelWon": 4,
+            "challengeLost": 1,
+            "dispossessed": 1,
+            "totalContest": 1,
+            "interceptionWon": 1,
+            "ballRecovery": 2,
+            "totalTackle": 2,
+            "wonTackle": 2,
+            "unsuccessfulTouch": 3,
+            "wasFouled": 2,
+            "minutesPlayed": 69,
+            "touches": 50,
+            "rating": 6.6,
+            "possessionLostCtrl": 9,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.0507165,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Declan Rice",
+            "firstName": "Declan",
+            "lastName": "Rice",
+            "slug": "declan-rice",
+            "shortName": "D. Rice",
+            "position": "M",
+            "jerseyNumber": "41",
+            "height": 188,
+            "userCount": 69463,
+            "gender": "M",
+            "sofascoreId": "DeclanRice",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 856714,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 916272000,
+            "proposedMarketValueRaw": {
+              "value": 114000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ديكلان رايس",
+                "bn": "ডেক্লান রাইস",
+                "hi": "डेक्लान राइस"
+              },
+              "shortNameTranslation": {
+                "ar": "د. رايس",
+                "bn": "ডি. রাইস",
+                "hi": "डी. राइस"
+              }
+            }
+          },
+          "teamId": 42,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 61,
+            "accuratePass": 56,
+            "totalLongBalls": 7,
+            "accurateLongBalls": 5,
+            "accurateOwnHalfPasses": 34,
+            "totalOwnHalfPasses": 34,
+            "accurateOppositionHalfPasses": 22,
+            "totalOppositionHalfPasses": 27,
+            "duelLost": 1,
+            "duelWon": 1,
+            "dispossessed": 1,
+            "totalClearance": 2,
+            "outfielderBlock": 1,
+            "interceptionWon": 3,
+            "ballRecovery": 3,
+            "totalTackle": 1,
+            "wonTackle": 1,
+            "minutesPlayed": 90,
+            "touches": 70,
+            "rating": 7,
+            "possessionLostCtrl": 6,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.0154117,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Bukayo Saka",
+            "firstName": "Bukayo",
+            "lastName": "Saka",
+            "slug": "bukayo-saka",
+            "shortName": "B. Saka",
+            "position": "F",
+            "jerseyNumber": "7",
+            "height": 178,
+            "userCount": 193999,
+            "gender": "M",
+            "sofascoreId": "BSaka7",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 934235,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 999648000,
+            "proposedMarketValueRaw": {
+              "value": 126000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بوكايو ساكا",
+                "bn": "বুকায়ো সাকা",
+                "hi": "बुकायो साका"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. ساكا",
+                "bn": "বি. সাকা",
+                "hi": "बी. साका"
+              }
+            }
+          },
+          "teamId": 42,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 24,
+            "accuratePass": 19,
+            "totalLongBalls": 1,
+            "accurateOwnHalfPasses": 5,
+            "totalOwnHalfPasses": 5,
+            "accurateOppositionHalfPasses": 14,
+            "totalOppositionHalfPasses": 20,
+            "totalCross": 1,
+            "duelLost": 3,
+            "dispossessed": 1,
+            "totalContest": 1,
+            "shotOffTarget": 1,
+            "totalClearance": 1,
+            "outfielderBlock": 1,
+            "interceptionWon": 1,
+            "ballRecovery": 1,
+            "unsuccessfulTouch": 1,
+            "fouls": 1,
+            "totalOffside": 1,
+            "minutesPlayed": 78,
+            "touches": 34,
+            "rating": 6.5,
+            "possessionLostCtrl": 9,
+            "expectedGoals": 0.2148,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.138643,
+            "keyPass": 1,
+            "totalShots": 1,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Mason Mount",
+            "firstName": "Mason",
+            "lastName": "Mount",
+            "slug": "mason-mount",
+            "shortName": "M. Mount",
+            "position": "F",
+            "jerseyNumber": "7",
+            "height": 181,
+            "userCount": 42351,
+            "gender": "M",
+            "sofascoreId": "MMount",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 836694,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 915926400,
+            "proposedMarketValueRaw": {
+              "value": 28000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماسون ماونت",
+                "bn": "মেসন মাউন্ট",
+                "hi": "मेसन माउंट"
+              },
+              "shortNameTranslation": {
+                "ar": "م. مونت",
+                "bn": "এম. মাউন্ট",
+                "hi": "एम. माउंट"
+              }
+            }
+          },
+          "teamId": 35,
+          "shirtNumber": 19,
+          "jerseyNumber": "19",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 29,
+            "accuratePass": 24,
+            "totalLongBalls": 1,
+            "accurateLongBalls": 1,
+            "accurateOwnHalfPasses": 7,
+            "totalOwnHalfPasses": 9,
+            "accurateOppositionHalfPasses": 17,
+            "totalOppositionHalfPasses": 22,
+            "totalCross": 2,
+            "aerialLost": 1,
+            "duelLost": 6,
+            "duelWon": 3,
+            "dispossessed": 2,
+            "totalContest": 1,
+            "shotOffTarget": 1,
+            "onTargetScoringAttempt": 1,
+            "ballRecovery": 1,
+            "totalTackle": 1,
+            "wonTackle": 1,
+            "unsuccessfulTouch": 3,
+            "wasFouled": 2,
+            "fouls": 2,
+            "minutesPlayed": 90,
+            "touches": 45,
+            "rating": 6.7,
+            "possessionLostCtrl": 13,
+            "expectedGoals": 0.0889,
+            "expectedGoalsOnTarget": 0.1483,
+            "expectedAssists": 0.0197373,
+            "totalShots": 2,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Raheem Sterling",
+            "firstName": "Raheem",
+            "lastName": "Sterling",
+            "slug": "raheem-sterling",
+            "shortName": "R. Sterling",
+            "position": "F",
+            "jerseyNumber": "19",
+            "height": 170,
+            "userCount": 36767,
+            "gender": "M",
+            "sofascoreId": "Sterling7",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 138534,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 786844800,
+            "proposedMarketValueRaw": {
+              "value": 4800000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "رحيم ستيرلينغ",
+                "bn": "রাহিম স্টার্লিং",
+                "hi": "रहीम स्टर्लिंग"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. سترلينغ",
+                "bn": "আর. স্টার্লিং",
+                "hi": "आर. स्टर्लिंग"
+              }
+            }
+          },
+          "teamId": 2959,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 19,
+            "accuratePass": 16,
+            "accurateOwnHalfPasses": 7,
+            "totalOwnHalfPasses": 9,
+            "accurateOppositionHalfPasses": 9,
+            "totalOppositionHalfPasses": 10,
+            "aerialLost": 1,
+            "duelLost": 2,
+            "duelWon": 2,
+            "challengeLost": 1,
+            "interceptionWon": 1,
+            "ballRecovery": 2,
+            "unsuccessfulTouch": 3,
+            "wasFouled": 2,
+            "minutesPlayed": 68,
+            "touches": 27,
+            "rating": 6.5,
+            "possessionLostCtrl": 7,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.0342701,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Harry Kane",
+            "firstName": "Harry",
+            "lastName": "Kane",
+            "slug": "harry-kane",
+            "shortName": "H. Kane",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 188,
+            "userCount": 357104,
+            "gender": "M",
+            "sofascoreId": "HurriKane",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 108579,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 743817600,
+            "proposedMarketValueRaw": {
+              "value": 71000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هاري كين",
+                "bn": "হ্যারি কেইন",
+                "hi": "हैरी केन"
+              },
+              "shortNameTranslation": {
+                "ar": "ه. كين",
+                "bn": "এইচ. কেইন",
+                "hi": "एच. केन"
+              }
+            }
+          },
+          "teamId": 2672,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": false,
+          "captain": true,
+          "statistics": {
+            "totalPass": 22,
+            "accuratePass": 15,
+            "accurateOwnHalfPasses": 5,
+            "totalOwnHalfPasses": 5,
+            "accurateOppositionHalfPasses": 10,
+            "totalOppositionHalfPasses": 17,
+            "aerialLost": 3,
+            "aerialWon": 3,
+            "duelLost": 6,
+            "duelWon": 8,
+            "dispossessed": 1,
+            "totalContest": 3,
+            "wonContest": 1,
+            "bigChanceMissed": 1,
+            "shotOffTarget": 1,
+            "blockedScoringAttempt": 1,
+            "totalClearance": 1,
+            "ballRecovery": 4,
+            "totalTackle": 2,
+            "wonTackle": 1,
+            "unsuccessfulTouch": 1,
+            "wasFouled": 2,
+            "minutesPlayed": 90,
+            "touches": 40,
+            "rating": 6.4,
+            "possessionLostCtrl": 13,
+            "expectedGoals": 0.3401,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.0212202,
+            "totalShots": 2,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jack Grealish",
+            "firstName": "Jack",
+            "lastName": "Grealish",
+            "slug": "jack-grealish",
+            "shortName": "J. Grealish",
+            "position": "M",
+            "jerseyNumber": "18",
+            "height": 180,
+            "userCount": 57129,
+            "gender": "M",
+            "sofascoreId": "JGrealish",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 189061,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 810691200,
+            "proposedMarketValueRaw": {
+              "value": 26000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جاك غريليش",
+                "bn": "জ্যাক গ্রেলিশ",
+                "hi": "जैक ग्रेलिश"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. غريليش",
+                "bn": "জে গ্রেলিশ",
+                "hi": "जे. ग्रेलिश"
+              }
+            }
+          },
+          "teamId": 48,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "totalPass": 12,
+            "accuratePass": 9,
+            "totalLongBalls": 1,
+            "accurateLongBalls": 1,
+            "accurateOwnHalfPasses": 4,
+            "totalOwnHalfPasses": 5,
+            "accurateOppositionHalfPasses": 5,
+            "totalOppositionHalfPasses": 7,
+            "duelWon": 4,
+            "interceptionWon": 1,
+            "ballRecovery": 3,
+            "unsuccessfulTouch": 1,
+            "wasFouled": 4,
+            "minutesPlayed": 22,
+            "touches": 19,
+            "rating": 7,
+            "possessionLostCtrl": 4,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.0299156,
+            "keyPass": 1,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jordan Henderson",
+            "slug": "jordan-henderson",
+            "shortName": "J. Henderson",
+            "position": "M",
+            "jerseyNumber": "6",
+            "height": 183,
+            "userCount": 6458,
+            "gender": "M",
+            "sofascoreId": "jordanhenderson",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 42694,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 645580800,
+            "proposedMarketValueRaw": {
+              "value": 2200000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جوردان هندرسون",
+                "bn": "জর্ডান হেন্ডারসন",
+                "hi": "जॉर्डन हेंडरसन"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. هندرسون",
+                "bn": "জে. হেন্ডারসন",
+                "hi": "जे. हेंडरसन"
+              }
+            }
+          },
+          "teamId": 50,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "totalPass": 11,
+            "accuratePass": 10,
+            "accurateOwnHalfPasses": 3,
+            "totalOwnHalfPasses": 3,
+            "accurateOppositionHalfPasses": 7,
+            "totalOppositionHalfPasses": 10,
+            "totalCross": 2,
+            "duelWon": 1,
+            "wasFouled": 1,
+            "minutesPlayed": 21,
+            "touches": 14,
+            "rating": 6.6,
+            "possessionLostCtrl": 3,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.0103933,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Marcus Rashford",
+            "firstName": "Marcus",
+            "lastName": "Rashford",
+            "slug": "marcus-rashford",
+            "shortName": "M. Rashford",
+            "position": "F",
+            "jerseyNumber": "14",
+            "height": 185,
+            "userCount": 379840,
+            "gender": "M",
+            "sofascoreId": "Rashford",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 814590,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 878256000,
+            "proposedMarketValueRaw": {
+              "value": 38000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماركوس راشفورد",
+                "bn": "মার্কাস রাশফোর্ড",
+                "hi": "मार्कस रैशफोर्ड"
+              },
+              "shortNameTranslation": {
+                "ar": "م. راشفورد",
+                "bn": "এম. রাশফোর্ড",
+                "hi": "एम. रैशफोर्ड"
+              }
+            }
+          },
+          "teamId": 2817,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "totalPass": 2,
+            "accuratePass": 2,
+            "accurateOppositionHalfPasses": 2,
+            "totalOppositionHalfPasses": 2,
+            "duelLost": 1,
+            "duelWon": 1,
+            "challengeLost": 1,
+            "totalContest": 1,
+            "wonContest": 1,
+            "onTargetScoringAttempt": 1,
+            "ballRecovery": 1,
+            "minutesPlayed": 12,
+            "touches": 4,
+            "rating": 6.8,
+            "expectedGoals": 0.0301,
+            "expectedGoalsOnTarget": 0.0901,
+            "expectedAssists": 0.00202403,
+            "totalShots": 1,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Aaron Ramsdale",
+            "firstName": "Aaron",
+            "lastName": "Ramsdale",
+            "slug": "aaron-ramsdale",
+            "shortName": "A. Ramsdale",
+            "position": "G",
+            "jerseyNumber": "32",
+            "height": 191,
+            "userCount": 8876,
+            "gender": "M",
+            "sofascoreId": "ARamsdale",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 839410,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 895104000,
+            "proposedMarketValueRaw": {
+              "value": 12600000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "آرون رامسديل",
+                "bn": "অ্যারন রামসডেল",
+                "hi": "आरोन रामस्डेल"
+              },
+              "shortNameTranslation": {
+                "ar": "آ. رامسديل",
+                "bn": "এ. রামসডেল",
+                "hi": "ए. रामस्डेल"
+              }
+            }
+          },
+          "teamId": 39,
+          "shirtNumber": 23,
+          "jerseyNumber": "23",
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Nick Pope",
+            "firstName": "Nick",
+            "lastName": "Pope",
+            "slug": "nick-pope",
+            "shortName": "N. Pope",
+            "position": "G",
+            "jerseyNumber": "1",
+            "height": 198,
+            "userCount": 4874,
+            "gender": "M",
+            "sofascoreId": "npope29",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 162653,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 703641600,
+            "proposedMarketValueRaw": {
+              "value": 6700000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "نيك بوب",
+                "bn": "নিক পোপ",
+                "hi": "निक पोप"
+              },
+              "shortNameTranslation": {
+                "ar": "ن. بوب",
+                "bn": "এন. পোপ",
+                "hi": "एन. पोप"
+              }
+            }
+          },
+          "teamId": 39,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Kyle Walker",
+            "slug": "kyle-walker",
+            "shortName": "K. Walker",
+            "position": "D",
+            "jerseyNumber": "2",
+            "height": 183,
+            "userCount": 25569,
+            "gender": "M",
+            "sofascoreId": "KyleWalker2",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 44614,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 643852800,
+            "proposedMarketValueRaw": {
+              "value": 2300000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كايل ووكر",
+                "bn": "কাইল ওয়াকার",
+                "hi": "काइल वाकर"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. ووكر",
+                "bn": "কে. ওয়াকার",
+                "hi": "के. वाकर"
+              }
+            }
+          },
+          "teamId": 6,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Trent Alexander-Arnold",
+            "firstName": "Trent",
+            "lastName": "Alexander-Arnold",
+            "slug": "trent-alexander-arnold",
+            "shortName": "T. Alexander-Arnold",
+            "position": "D",
+            "jerseyNumber": "12",
+            "height": 180,
+            "userCount": 215061,
+            "gender": "M",
+            "sofascoreId": "TrentAA",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 795064,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 907718400,
+            "proposedMarketValueRaw": {
+              "value": 67000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ترنت ألكسندر-أرنولد",
+                "bn": "ট্রেন্ট আলেকজান্ডার-আর্নল্ড",
+                "hi": "ट्रेंट अलेक्जेंडर-अर्नोल्ड"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. ألكسندر-أرنولد",
+                "bn": "টি. আলেকজান্ডার-আর্নল্ড",
+                "hi": "टी. अलेक्जेंडर-अर्नोल्ड"
+              }
+            }
+          },
+          "teamId": 2829,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Eric Dier",
+            "firstName": "Eric",
+            "lastName": "Dier",
+            "slug": "eric-dier",
+            "shortName": "E. Dier",
+            "position": "D",
+            "jerseyNumber": "3",
+            "height": 191,
+            "userCount": 4277,
+            "gender": "M",
+            "sofascoreId": "ericdier",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 146101,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 758592000,
+            "proposedMarketValueRaw": {
+              "value": 4500000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إريك داير",
+                "bn": "এরিক ডিয়ার",
+                "hi": "एरिक डिएर"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. داير",
+                "bn": "ই. ডিয়ার",
+                "hi": "ई. डिएर"
+              }
+            }
+          },
+          "teamId": 1653,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Ben White",
+            "firstName": "Ben",
+            "lastName": "White",
+            "slug": "ben-white",
+            "shortName": "B. White",
+            "position": "D",
+            "jerseyNumber": "4",
+            "height": 186,
+            "userCount": 15033,
+            "gender": "M",
+            "sofascoreId": "benwhite",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 846036,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 876268800,
+            "proposedMarketValueRaw": {
+              "value": 27000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بنيامين وايت",
+                "bn": "বেঞ্জামিন হোয়াইট",
+                "hi": "बेंजामिन व्हाइट"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. وايت",
+                "bn": "বি. হোয়াইট",
+                "hi": "बी. व्हाइट"
+              }
+            }
+          },
+          "teamId": 42,
+          "shirtNumber": 21,
+          "jerseyNumber": "21",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Conor Coady",
+            "slug": "conor-coady",
+            "shortName": "C. Coady",
+            "position": "D",
+            "jerseyNumber": "15",
+            "height": 184,
+            "userCount": 638,
+            "gender": "M",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 98449,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 730598400,
+            "proposedMarketValueRaw": {
+              "value": 1400000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كونور كودي",
+                "bn": "কনর কোডিস",
+                "hi": "कोनोर कोडी"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. كودي",
+                "bn": "সি. কোডি",
+                "hi": "सी. कोडी"
+              }
+            }
+          },
+          "teamId": 47,
+          "shirtNumber": 16,
+          "jerseyNumber": "16",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Conor Gallagher",
+            "firstName": "Conor",
+            "lastName": "Gallagher",
+            "slug": "conor-gallagher",
+            "shortName": "C. Gallagher",
+            "position": "M",
+            "jerseyNumber": "22",
+            "height": 182,
+            "userCount": 16490,
+            "gender": "M",
+            "sofascoreId": "conorgallagher92",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 904970,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 949795200,
+            "proposedMarketValueRaw": {
+              "value": 34000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كونور غالاغير",
+                "bn": "কনর গ্যালাঘের",
+                "hi": "कोनोर गालाघर"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. غالاغر",
+                "bn": "সি. গ্যালাঘের",
+                "hi": "सी. गालाघर"
+              }
+            }
+          },
+          "teamId": 33,
+          "shirtNumber": 26,
+          "jerseyNumber": "26",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Kalvin Phillips",
+            "firstName": "Kalvin",
+            "lastName": "Phillips",
+            "slug": "kalvin-phillips",
+            "shortName": "K. Phillips",
+            "position": "M",
+            "jerseyNumber": "27",
+            "height": 177,
+            "userCount": 8984,
+            "gender": "M",
+            "sofascoreId": "kalvinphillips",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 786028,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 817862400,
+            "proposedMarketValueRaw": {
+              "value": 4700000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كالفين فيليبس",
+                "bn": "ক্যালভিন ফিলিপস",
+                "hi": "केल्विन फिलिप्स"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. فيليبس",
+                "bn": "কে. ফিলিপস",
+                "hi": "के. फिलिप्स"
+              }
+            }
+          },
+          "teamId": 15,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Phil Foden",
+            "firstName": "Phil",
+            "lastName": "Foden",
+            "slug": "phil-foden",
+            "shortName": "P. Foden",
+            "position": "M",
+            "jerseyNumber": "47",
+            "height": 171,
+            "userCount": 171832,
+            "gender": "M",
+            "sofascoreId": "Foden",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 859765,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 959472000,
+            "proposedMarketValueRaw": {
+              "value": 76000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فيل فودين",
+                "bn": "ফিল ফোডেন",
+                "hi": "फिल फोडेन"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. فودين",
+                "bn": "পি. ফোডেন",
+                "hi": "पी. फोडेन"
+              }
+            }
+          },
+          "teamId": 17,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Callum Wilson",
+            "firstName": "Callum",
+            "lastName": "Wilson",
+            "slug": "callum-wilson",
+            "shortName": "C. Wilson",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 180,
+            "userCount": 3217,
+            "gender": "M",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 113956,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 699148800,
+            "proposedMarketValueRaw": {
+              "value": 5300000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كالوم ويلسون",
+                "bn": "ক্যালাম উইলসন",
+                "hi": "कैलम विल्सन"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. ويلسون",
+                "bn": "সি. উইলসন",
+                "hi": "सी. विल्सन"
+              }
+            }
+          },
+          "teamId": 37,
+          "shirtNumber": 24,
+          "jerseyNumber": "24",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        }
+      ],
+      "supportStaff": [],
+      "formation": "4-2-3-1",
+      "playerColor": {
+        "primary": "ffffff",
+        "number": "163c7d",
+        "outline": "ffffff",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "ffffff",
+        "outline": "000000",
+        "fancyNumber": "ffffff"
+      },
+      "missingPlayers": [
+        {
+          "player": {
+            "name": "James Maddison",
+            "firstName": "James",
+            "lastName": "Maddison",
+            "slug": "james-maddison",
+            "shortName": "J. Maddison",
+            "position": "M",
+            "jerseyNumber": "10",
+            "height": 175,
+            "userCount": 15883,
+            "gender": "M",
+            "sofascoreId": "Madders",
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "id": 356398,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 848707200,
+            "proposedMarketValueRaw": {
+              "value": 24000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جيمس ماديسون",
+                "bn": "জেমস ম্যাডিসন",
+                "hi": "जेम्स मैडिसन"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. ماديسون",
+                "bn": "জে. ম্যাডিসন",
+                "hi": "जे. मैडिसन"
+              }
+            }
+          },
+          "type": "doubtful",
+          "reason": 1
+        }
+      ]
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Matt Turner",
+            "slug": "matt-turner",
+            "shortName": "M. Turner",
+            "position": "G",
+            "jerseyNumber": "30",
+            "height": 190,
+            "userCount": 1706,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 833943,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 772416000,
+            "proposedMarketValueRaw": {
+              "value": 2600000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مات تيرنر",
+                "bn": "ম্যাট টার্নার",
+                "hi": "मैट टर्नर"
+              },
+              "shortNameTranslation": {
+                "ar": "م. تيرنر",
+                "bn": "এম. টার্নার",
+                "hi": "एम. टर्नर"
+              }
+            }
+          },
+          "teamId": 2511,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 28,
+            "accuratePass": 20,
+            "totalLongBalls": 13,
+            "accurateLongBalls": 5,
+            "accurateOwnHalfPasses": 18,
+            "totalOwnHalfPasses": 20,
+            "accurateOppositionHalfPasses": 2,
+            "totalOppositionHalfPasses": 8,
+            "ballRecovery": 15,
+            "goodHighClaim": 4,
+            "savedShotsFromInsideTheBox": 2,
+            "saves": 3,
+            "minutesPlayed": 90,
+            "touches": 45,
+            "rating": 7.6,
+            "possessionLostCtrl": 8,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.00030461,
+            "totalShots": 0,
+            "goalsPrevented": 0.3507,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Sergiño Dest",
+            "firstName": "Sergino",
+            "lastName": "Dest",
+            "slug": "sergino-dest",
+            "shortName": "S. Dest",
+            "position": "D",
+            "jerseyNumber": "8",
+            "height": 173,
+            "userCount": 6278,
+            "gender": "M",
+            "sofascoreId": "sergino",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 906021,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 973209600,
+            "proposedMarketValueRaw": {
+              "value": 17200000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سيرجينيو ديست",
+                "bn": "সার্জিনো ডেস্ট",
+                "hi": "सर्जिनो डेस्ट"
+              },
+              "shortNameTranslation": {
+                "ar": "س. ديست",
+                "bn": "এস. ডেস্ট",
+                "hi": "एस. डेस्ट"
+              }
+            }
+          },
+          "teamId": 2952,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 33,
+            "accuratePass": 29,
+            "totalLongBalls": 2,
+            "accurateOwnHalfPasses": 20,
+            "totalOwnHalfPasses": 22,
+            "accurateOppositionHalfPasses": 10,
+            "totalOppositionHalfPasses": 13,
+            "totalCross": 2,
+            "accurateCross": 1,
+            "aerialWon": 1,
+            "duelLost": 4,
+            "duelWon": 2,
+            "challengeLost": 1,
+            "blockedScoringAttempt": 1,
+            "totalClearance": 4,
+            "ballRecovery": 1,
+            "totalTackle": 1,
+            "unsuccessfulTouch": 2,
+            "fouls": 3,
+            "minutesPlayed": 78,
+            "touches": 51,
+            "rating": 6.7,
+            "possessionLostCtrl": 7,
+            "expectedGoals": 0.0836,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.0787654,
+            "keyPass": 2,
+            "totalShots": 1,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Walker Zimmerman",
+            "firstName": "Walker",
+            "lastName": "Zimmerman",
+            "slug": "walker-zimmerman",
+            "shortName": "W. Zimmerman",
+            "position": "D",
+            "jerseyNumber": "25",
+            "height": 190,
+            "userCount": 386,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 1125090,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 737769600,
+            "proposedMarketValueRaw": {
+              "value": 2100000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "زيمرمان، ووكر",
+                "bn": "জিমারম্যান, ওয়াকার",
+                "hi": "ज़िमरमैन, वॉकर"
+              },
+              "shortNameTranslation": {
+                "ar": "ز. ووكر",
+                "bn": "ডব্লিউ. জিমারম্যান",
+                "hi": "डब्लू. ज़िमरमैन"
+              }
+            }
+          },
+          "teamId": 7080,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 72,
+            "accuratePass": 63,
+            "totalLongBalls": 9,
+            "accurateLongBalls": 3,
+            "accurateOwnHalfPasses": 57,
+            "totalOwnHalfPasses": 58,
+            "accurateOppositionHalfPasses": 6,
+            "totalOppositionHalfPasses": 14,
+            "aerialLost": 1,
+            "duelLost": 3,
+            "duelWon": 1,
+            "challengeLost": 1,
+            "totalClearance": 2,
+            "outfielderBlock": 1,
+            "ballRecovery": 5,
+            "totalTackle": 1,
+            "fouls": 1,
+            "minutesPlayed": 90,
+            "touches": 78,
+            "rating": 6.8,
+            "possessionLostCtrl": 9,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.00275507,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Tim Ream",
+            "firstName": "Tim",
+            "lastName": "Ream",
+            "slug": "tim-ream",
+            "shortName": "T. Ream",
+            "position": "D",
+            "jerseyNumber": "3",
+            "height": 185,
+            "userCount": 576,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 118179,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 560390400,
+            "proposedMarketValueRaw": {
+              "value": 195000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تيم ريم",
+                "bn": "টিম রেম",
+                "hi": "टिम रीम"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. ريم",
+                "bn": "টি. রেম",
+                "hi": "टी. रीम"
+              }
+            }
+          },
+          "teamId": 404108,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 55,
+            "accuratePass": 47,
+            "totalLongBalls": 5,
+            "accurateLongBalls": 2,
+            "accurateOwnHalfPasses": 36,
+            "totalOwnHalfPasses": 38,
+            "accurateOppositionHalfPasses": 11,
+            "totalOppositionHalfPasses": 17,
+            "aerialLost": 3,
+            "aerialWon": 3,
+            "duelLost": 3,
+            "duelWon": 4,
+            "totalContest": 1,
+            "wonContest": 1,
+            "totalClearance": 3,
+            "ballRecovery": 1,
+            "unsuccessfulTouch": 1,
+            "minutesPlayed": 90,
+            "touches": 63,
+            "rating": 7,
+            "possessionLostCtrl": 9,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.00822864,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Antonee Robinson",
+            "firstName": "Antonee",
+            "lastName": "Robinson",
+            "slug": "antonee-robinson",
+            "shortName": "A. Robinson",
+            "position": "D",
+            "jerseyNumber": "33",
+            "height": 183,
+            "userCount": 2962,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 803174,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 870998400,
+            "proposedMarketValueRaw": {
+              "value": 27000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أنتوني روبنسون",
+                "bn": "অ্যান্টনি রবিনসন",
+                "hi": "एंटोनी रॉबिन्सन"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. روبنسون",
+                "bn": "এ. রবিনসন",
+                "hi": "ए. रॉबिन्सन"
+              }
+            }
+          },
+          "teamId": 43,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 34,
+            "accuratePass": 28,
+            "totalLongBalls": 2,
+            "accurateOwnHalfPasses": 13,
+            "totalOwnHalfPasses": 19,
+            "accurateOppositionHalfPasses": 15,
+            "totalOppositionHalfPasses": 18,
+            "totalCross": 3,
+            "aerialLost": 1,
+            "aerialWon": 1,
+            "duelLost": 2,
+            "duelWon": 3,
+            "challengeLost": 1,
+            "totalClearance": 2,
+            "interceptionWon": 2,
+            "ballRecovery": 7,
+            "totalTackle": 2,
+            "wonTackle": 2,
+            "unsuccessfulTouch": 5,
+            "minutesPlayed": 90,
+            "touches": 55,
+            "rating": 7.1,
+            "possessionLostCtrl": 15,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.0258289,
+            "keyPass": 2,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Weston McKennie",
+            "firstName": "Weston",
+            "lastName": "McKennie",
+            "slug": "weston-mckennie",
+            "shortName": "W. McKennie",
+            "position": "M",
+            "jerseyNumber": "22",
+            "height": 185,
+            "userCount": 8486,
+            "gender": "M",
+            "sofascoreId": "west.mckennie",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 881931,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 904262400,
+            "proposedMarketValueRaw": {
+              "value": 31000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ويستون ماكيني",
+                "bn": "ওয়েস্টন ম্যাককেনি",
+                "hi": "वेस्टन मैकेनी"
+              },
+              "shortNameTranslation": {
+                "ar": "و. ماكيني",
+                "bn": "ডব্লিউ. ম্যাককেনি",
+                "hi": "डब्लू. मैकेनी"
+              }
+            }
+          },
+          "teamId": 2687,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 30,
+            "accuratePass": 27,
+            "totalLongBalls": 2,
+            "accurateLongBalls": 2,
+            "accurateOwnHalfPasses": 5,
+            "totalOwnHalfPasses": 6,
+            "accurateOppositionHalfPasses": 23,
+            "totalOppositionHalfPasses": 25,
+            "totalCross": 1,
+            "accurateCross": 1,
+            "aerialLost": 2,
+            "duelLost": 4,
+            "duelWon": 4,
+            "dispossessed": 1,
+            "totalContest": 1,
+            "wonContest": 1,
+            "bigChanceMissed": 1,
+            "shotOffTarget": 2,
+            "totalClearance": 1,
+            "ballRecovery": 4,
+            "totalTackle": 2,
+            "wonTackle": 1,
+            "unsuccessfulTouch": 1,
+            "wasFouled": 1,
+            "fouls": 1,
+            "minutesPlayed": 77,
+            "touches": 47,
+            "rating": 6.9,
+            "possessionLostCtrl": 7,
+            "expectedGoals": 0.257,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.100662,
+            "keyPass": 1,
+            "totalShots": 2,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Tyler Adams",
+            "firstName": "Tyler",
+            "lastName": "Adams",
+            "slug": "tyler-adams",
+            "shortName": "T. Adams",
+            "position": "M",
+            "jerseyNumber": "12",
+            "height": 175,
+            "userCount": 2997,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 800419,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 918950400,
+            "proposedMarketValueRaw": {
+              "value": 26000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تايلر آدامز",
+                "bn": "টাইলার অ্যাডামস",
+                "hi": "टायलर एडम्स"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. آدامز",
+                "bn": "টি. অ্যাডামস",
+                "hi": "टी. एडम्स"
+              }
+            }
+          },
+          "teamId": 60,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "M",
+          "substitute": false,
+          "captain": true,
+          "statistics": {
+            "totalPass": 46,
+            "accuratePass": 40,
+            "totalLongBalls": 3,
+            "accurateLongBalls": 2,
+            "accurateOwnHalfPasses": 23,
+            "totalOwnHalfPasses": 27,
+            "accurateOppositionHalfPasses": 17,
+            "totalOppositionHalfPasses": 19,
+            "aerialWon": 1,
+            "duelLost": 3,
+            "duelWon": 4,
+            "dispossessed": 2,
+            "totalClearance": 2,
+            "interceptionWon": 1,
+            "ballRecovery": 8,
+            "totalTackle": 1,
+            "wonTackle": 1,
+            "unsuccessfulTouch": 1,
+            "wasFouled": 2,
+            "fouls": 1,
+            "minutesPlayed": 90,
+            "touches": 60,
+            "rating": 6.7,
+            "possessionLostCtrl": 9,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.0121665,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Yunus Musah",
+            "slug": "yunus-musah",
+            "shortName": "Y. Musah",
+            "position": "M",
+            "jerseyNumber": "6",
+            "height": 178,
+            "userCount": 4244,
+            "gender": "M",
+            "sofascoreId": "yunusmusah8",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 983815,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1038528000,
+            "proposedMarketValueRaw": {
+              "value": 18600000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "يونس موسى",
+                "bn": "ইউনুস মুসা",
+                "hi": "युनुस मुसाह"
+              },
+              "shortNameTranslation": {
+                "ar": "ي. موسى",
+                "bn": "ওয়াই. মুসা",
+                "hi": "वाई. मुसाह"
+              }
+            }
+          },
+          "teamId": 2686,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 35,
+            "accuratePass": 29,
+            "totalLongBalls": 3,
+            "accurateLongBalls": 2,
+            "accurateOwnHalfPasses": 12,
+            "totalOwnHalfPasses": 14,
+            "accurateOppositionHalfPasses": 17,
+            "totalOppositionHalfPasses": 21,
+            "aerialWon": 1,
+            "duelLost": 5,
+            "duelWon": 4,
+            "dispossessed": 1,
+            "onTargetScoringAttempt": 1,
+            "ballRecovery": 5,
+            "totalTackle": 2,
+            "wonTackle": 2,
+            "unsuccessfulTouch": 1,
+            "wasFouled": 1,
+            "fouls": 4,
+            "minutesPlayed": 90,
+            "touches": 46,
+            "rating": 6.9,
+            "possessionLostCtrl": 8,
+            "expectedGoals": 0.0242,
+            "expectedGoalsOnTarget": 0.0461,
+            "expectedAssists": 0.0369209,
+            "keyPass": 1,
+            "totalShots": 1,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Christian Pulišić",
+            "slug": "christian-pulisic",
+            "shortName": "C. Pulišić",
+            "position": "F",
+            "jerseyNumber": "11",
+            "height": 177,
+            "userCount": 38019,
+            "gender": "M",
+            "sofascoreId": "CMPulisic",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 817957,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 906076800,
+            "proposedMarketValueRaw": {
+              "value": 54000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كريستيان بوليسيتش",
+                "bn": "ক্রিশ্চিয়ান পুলিসিচ",
+                "hi": "क्रिश्चियन पुलिसिक"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. بوليسيتش",
+                "bn": "সি. পুলিসিচ",
+                "hi": "सी.पुलिसिक"
+              }
+            }
+          },
+          "teamId": 2692,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 29,
+            "accuratePass": 23,
+            "totalLongBalls": 5,
+            "accurateLongBalls": 2,
+            "accurateOwnHalfPasses": 7,
+            "totalOwnHalfPasses": 8,
+            "accurateOppositionHalfPasses": 16,
+            "totalOppositionHalfPasses": 28,
+            "totalCross": 7,
+            "aerialWon": 1,
+            "duelLost": 3,
+            "duelWon": 7,
+            "dispossessed": 1,
+            "totalContest": 3,
+            "wonContest": 2,
+            "shotOffTarget": 2,
+            "blockedScoringAttempt": 2,
+            "hitWoodwork": 1,
+            "ballRecovery": 4,
+            "totalTackle": 1,
+            "unsuccessfulTouch": 3,
+            "wasFouled": 3,
+            "fouls": 2,
+            "minutesPlayed": 90,
+            "touches": 54,
+            "rating": 7,
+            "possessionLostCtrl": 18,
+            "expectedGoals": 0.1372,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.0333411,
+            "keyPass": 1,
+            "totalShots": 4,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Tim Weah",
+            "firstName": "Tim",
+            "lastName": "Weah",
+            "slug": "tim-weah",
+            "shortName": "T. Weah",
+            "position": "M",
+            "jerseyNumber": "22",
+            "height": 185,
+            "userCount": 11650,
+            "gender": "M",
+            "sofascoreId": "timothyweah",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 855810,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 951177600,
+            "proposedMarketValueRaw": {
+              "value": 18200000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "bn": "ওহ, টিমোথি",
+                "hi": "वेआह, टिमोथी"
+              },
+              "shortNameTranslation": {
+                "bn": "টি. ওহ",
+                "hi": "टी. वेआह"
+              }
+            }
+          },
+          "teamId": 1641,
+          "shirtNumber": 21,
+          "jerseyNumber": "21",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 23,
+            "accuratePass": 17,
+            "totalLongBalls": 2,
+            "accurateLongBalls": 1,
+            "accurateOwnHalfPasses": 4,
+            "totalOwnHalfPasses": 6,
+            "accurateOppositionHalfPasses": 14,
+            "totalOppositionHalfPasses": 19,
+            "totalCross": 2,
+            "accurateCross": 1,
+            "aerialWon": 1,
+            "duelLost": 3,
+            "duelWon": 2,
+            "challengeLost": 1,
+            "dispossessed": 2,
+            "totalContest": 1,
+            "wonContest": 1,
+            "bigChanceCreated": 1,
+            "ballRecovery": 2,
+            "unsuccessfulTouch": 2,
+            "minutesPlayed": 83,
+            "touches": 35,
+            "rating": 7,
+            "possessionLostCtrl": 11,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.0772965,
+            "keyPass": 2,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Haji Wright",
+            "firstName": "Haji",
+            "lastName": "Wright",
+            "slug": "haji-wright",
+            "shortName": "H. Wright",
+            "position": "F",
+            "jerseyNumber": "11",
+            "height": 193,
+            "userCount": 2435,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 818391,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 890956800,
+            "proposedMarketValueRaw": {
+              "value": 14500000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هاجي رايت",
+                "bn": "হাজী রাইট",
+                "hi": "हाजी राइट"
+              },
+              "shortNameTranslation": {
+                "ar": "ه. رايت",
+                "bn": "এইচ. রাইট",
+                "hi": "एच. राइट"
+              }
+            }
+          },
+          "teamId": 11,
+          "shirtNumber": 19,
+          "jerseyNumber": "19",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 9,
+            "accuratePass": 6,
+            "totalLongBalls": 1,
+            "accurateOwnHalfPasses": 2,
+            "totalOwnHalfPasses": 3,
+            "accurateOppositionHalfPasses": 4,
+            "totalOppositionHalfPasses": 7,
+            "totalCross": 1,
+            "aerialLost": 2,
+            "aerialWon": 1,
+            "duelLost": 3,
+            "duelWon": 3,
+            "totalContest": 1,
+            "shotOffTarget": 1,
+            "blockedScoringAttempt": 1,
+            "ballRecovery": 1,
+            "totalTackle": 1,
+            "wasFouled": 1,
+            "minutesPlayed": 83,
+            "touches": 18,
+            "rating": 6.6,
+            "possessionLostCtrl": 5,
+            "expectedGoals": 0.1295,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.00374164,
+            "totalShots": 2,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Brenden Aaronson",
+            "firstName": "",
+            "lastName": "",
+            "slug": "brenden-aaronson",
+            "shortName": "B. Aaronson",
+            "position": "M",
+            "jerseyNumber": "11",
+            "height": 178,
+            "userCount": 2831,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 973431,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 972172800,
+            "proposedMarketValueRaw": {
+              "value": 18700000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بريندن آرونسون",
+                "bn": "ব্রেন্ডেন অ্যারনসন",
+                "hi": "ब्रेंडन आरोनसन"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. آرونسون",
+                "bn": "বি. অ্যারনসন",
+                "hi": "बी. आरोनसन"
+              }
+            }
+          },
+          "teamId": 34,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "totalPass": 9,
+            "accuratePass": 9,
+            "accurateOwnHalfPasses": 6,
+            "totalOwnHalfPasses": 6,
+            "accurateOppositionHalfPasses": 3,
+            "totalOppositionHalfPasses": 3,
+            "duelWon": 1,
+            "totalTackle": 1,
+            "wonTackle": 1,
+            "minutesPlayed": 13,
+            "touches": 11,
+            "rating": 6.8,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.0117106,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Shaq Moore",
+            "firstName": "Shaq",
+            "lastName": "Moore",
+            "slug": "shaq-moore",
+            "shortName": "S. Moore",
+            "position": "D",
+            "jerseyNumber": "18",
+            "height": 180,
+            "userCount": 154,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 813511,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 846892800,
+            "proposedMarketValueRaw": {
+              "value": 1500000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "شاك مور",
+                "bn": "শাক মুর",
+                "hi": "शाक मूर"
+              },
+              "shortNameTranslation": {
+                "ar": "ش. مور",
+                "bn": "এস. মুর",
+                "hi": "एस. मूर"
+              }
+            }
+          },
+          "teamId": 2512,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "totalPass": 13,
+            "accuratePass": 11,
+            "accurateOwnHalfPasses": 4,
+            "totalOwnHalfPasses": 4,
+            "accurateOppositionHalfPasses": 7,
+            "totalOppositionHalfPasses": 9,
+            "duelLost": 3,
+            "totalClearance": 1,
+            "ballRecovery": 1,
+            "fouls": 3,
+            "minutesPlayed": 12,
+            "touches": 15,
+            "rating": 6.4,
+            "possessionLostCtrl": 2,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.00761706,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Giovanni Reyna",
+            "firstName": "",
+            "lastName": "",
+            "slug": "giovanni-reyna",
+            "shortName": "G. Reyna",
+            "position": "M",
+            "jerseyNumber": "13",
+            "height": 185,
+            "userCount": 5095,
+            "gender": "M",
+            "sofascoreId": "gioareyna",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 989056,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1037145600,
+            "proposedMarketValueRaw": {
+              "value": 4300000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جيوفاني رينا",
+                "bn": "জিওভানি রেইনা",
+                "hi": "जियोवानी रेयना"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. رينا",
+                "bn": "জি রেইনা",
+                "hi": "जी. रेयना"
+              }
+            }
+          },
+          "teamId": 2527,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "totalPass": 4,
+            "accuratePass": 2,
+            "accurateOwnHalfPasses": 2,
+            "totalOwnHalfPasses": 2,
+            "totalOppositionHalfPasses": 2,
+            "duelWon": 1,
+            "wasFouled": 1,
+            "minutesPlayed": 12,
+            "touches": 5,
+            "rating": 6.6,
+            "possessionLostCtrl": 2,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 2.835e-05,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Josh Sargent",
+            "firstName": "Josh",
+            "lastName": "Sargent",
+            "slug": "josh-sargent",
+            "shortName": "J. Sargent",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 185,
+            "userCount": 1866,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 880796,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 951004800,
+            "proposedMarketValueRaw": {
+              "value": 16300000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جوش سارجنت",
+                "bn": "জোশ সার্জেন্ট",
+                "hi": "जोश सार्जेंट"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. سارجنت",
+                "bn": "জে. সার্জেন্ট",
+                "hi": "जे. सार्जेंट"
+              }
+            }
+          },
+          "teamId": 7080,
+          "shirtNumber": 24,
+          "jerseyNumber": "24",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "totalPass": 1,
+            "accuratePass": 1,
+            "accurateOppositionHalfPasses": 1,
+            "totalOppositionHalfPasses": 1,
+            "aerialLost": 2,
+            "duelLost": 3,
+            "challengeLost": 1,
+            "unsuccessfulTouch": 1,
+            "minutesPlayed": 12,
+            "touches": 2,
+            "rating": 6.4,
+            "possessionLostCtrl": 1,
+            "expectedGoals": 0,
+            "expectedGoalsOnTarget": 0,
+            "expectedAssists": 0.00446625,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Sean Johnson",
+            "firstName": "Sean",
+            "lastName": "Johnson",
+            "slug": "sean-johnson",
+            "shortName": "S. Johnson",
+            "position": "G",
+            "jerseyNumber": "1",
+            "height": 190,
+            "userCount": 172,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 111108,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 612576000,
+            "proposedMarketValueRaw": {
+              "value": 310000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "شون جونسون",
+                "bn": "শন জনসন",
+                "hi": "सीन जॉनसन"
+              },
+              "shortNameTranslation": {
+                "ar": "ش. جونسون",
+                "bn": "এস. জনসন",
+                "hi": "एस. जॉनसन"
+              }
+            }
+          },
+          "teamId": 2502,
+          "shirtNumber": 25,
+          "jerseyNumber": "25",
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Ethan Horvath",
+            "firstName": "Ethan",
+            "lastName": "Horvath",
+            "slug": "ethan-horvath",
+            "shortName": "E. Horvath",
+            "position": "G",
+            "jerseyNumber": "34",
+            "height": 194,
+            "userCount": 413,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 343013,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 802656000,
+            "proposedMarketValueRaw": {
+              "value": 1100000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيثان هورفاث",
+                "bn": "ইথান হোরভাথ",
+                "hi": "एथन होर्वाथ"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. هورفاث",
+                "bn": "ই. হোরভাথ",
+                "hi": "ई. होर्वाथ"
+              }
+            }
+          },
+          "teamId": 2506,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Joe Scally",
+            "firstName": "Joe",
+            "lastName": "Scally",
+            "slug": "joe-scally",
+            "shortName": "J. Scally",
+            "position": "D",
+            "jerseyNumber": "29",
+            "height": 184,
+            "userCount": 1147,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 1002920,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1041292800,
+            "proposedMarketValueRaw": {
+              "value": 6600000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "bn": "স্ক্যালি, জোসেফ",
+                "hi": "स्कैली, जोसेफ"
+              },
+              "shortNameTranslation": {
+                "bn": "জে. স্ক্যালি",
+                "hi": "जे. स्कैली"
+              }
+            }
+          },
+          "teamId": 2527,
+          "shirtNumber": 26,
+          "jerseyNumber": "26",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Cameron Carter-Vickers",
+            "firstName": "Cameron",
+            "lastName": "Carter-Vickers",
+            "slug": "cameron-carter-vickers",
+            "shortName": "C. Carter-Vickers",
+            "position": "D",
+            "jerseyNumber": "20",
+            "height": 185,
+            "userCount": 965,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 795972,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 883526400,
+            "proposedMarketValueRaw": {
+              "value": 10700000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كاميرون كارتر-فيكرز",
+                "bn": "ক্যামেরন কার্টার-ভিকার্স",
+                "hi": "कैमरून कार्टर-विकर्स"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. كارتر-فيكرز",
+                "bn": "সি. কার্টার-ভিকার্স",
+                "hi": "सी. कार्टर-विकर्स"
+              }
+            }
+          },
+          "teamId": 2352,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Aaron Long",
+            "firstName": "Aaron",
+            "lastName": "Long",
+            "slug": "aaron-long",
+            "shortName": "A. Long",
+            "position": "D",
+            "jerseyNumber": "33",
+            "height": 186,
+            "userCount": 139,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 539882,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 718848000,
+            "proposedMarketValueRaw": {
+              "value": 735000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "آرون لونج",
+                "bn": "অ্যারন লং",
+                "hi": "आरोन लोंग"
+              },
+              "shortNameTranslation": {
+                "ar": "آ. لونج",
+                "bn": "এ. লং",
+                "hi": "साथ लोंग"
+              }
+            }
+          },
+          "teamId": 274650,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Kellyn Acosta",
+            "firstName": "Kellyn",
+            "lastName": "Acosta",
+            "slug": "kellyn-acosta",
+            "shortName": "K. Acosta",
+            "position": "M",
+            "jerseyNumber": "3",
+            "height": 177,
+            "userCount": 142,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 155950,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 806544000,
+            "proposedMarketValueRaw": {
+              "value": 1300000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كيليين أكوستا",
+                "bn": "কেলিন অ্যাকোস্টা",
+                "hi": "केलीन अकोस्टा"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. أكوستا",
+                "bn": "কে. অ্যাকোস্টা",
+                "hi": "के. अकोस्टा"
+              }
+            }
+          },
+          "teamId": 3117,
+          "shirtNumber": 23,
+          "jerseyNumber": "23",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jesús Ferreira",
+            "slug": "jesus-ferreira",
+            "shortName": "J. Ferreira",
+            "position": "M",
+            "jerseyNumber": "9",
+            "height": 173,
+            "userCount": 1034,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 869853,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 977616000,
+            "proposedMarketValueRaw": {
+              "value": 3800000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جيسوس فيريرا",
+                "bn": "জিসাস ফেরেরা",
+                "hi": "जेसुस फेरेरा"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. فيريرا",
+                "bn": "জে. ফেরেইরা",
+                "hi": "जे. फेरेरा"
+              }
+            }
+          },
+          "teamId": 22009,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "DeAndre Yedlin",
+            "firstName": "DeAndre",
+            "lastName": "Yedlin",
+            "slug": "deandre-yedlin",
+            "shortName": "D. Yedlin",
+            "position": "M",
+            "jerseyNumber": "2",
+            "height": 175,
+            "userCount": 623,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 314040,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 742176000,
+            "proposedMarketValueRaw": {
+              "value": 825000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دي أندري يدلن",
+                "bn": "ডিএন্ড্রে ইয়েডলিন",
+                "hi": "डेआन्द्रे येदलिन"
+              },
+              "shortNameTranslation": {
+                "ar": "د. يدلن",
+                "bn": "ডি. ইয়েডলিন",
+                "hi": "डी. येदलिन"
+              }
+            }
+          },
+          "teamId": 5133,
+          "shirtNumber": 22,
+          "jerseyNumber": "22",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Luca De La Torre",
+            "slug": "luca-de-la-torre",
+            "shortName": "L. D. L. Torre",
+            "position": "M",
+            "jerseyNumber": "17",
+            "height": 178,
+            "userCount": 566,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 846492,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 895881600,
+            "proposedMarketValueRaw": {
+              "value": 3100000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لوكا دي لا توري",
+                "bn": "লুকা দে লা টোরে",
+                "hi": "लुका डे ला टोरे"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. دي لا توري",
+                "bn": "এল. ডি. এল টোরে",
+                "hi": "एल.डी.एल. टोरे"
+              }
+            }
+          },
+          "teamId": 404108,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Cristian Roldán",
+            "firstName": "Cristian",
+            "lastName": "Roldan",
+            "slug": "cristian-roldan",
+            "shortName": "C. Roldán",
+            "position": "M",
+            "jerseyNumber": "7",
+            "height": 172,
+            "userCount": 585,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 790171,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 802137600,
+            "proposedMarketValueRaw": {
+              "value": 3800000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كريستيان رولدان",
+                "bn": "ক্রিশ্চিয়ান রোল্ডান",
+                "hi": "क्रिस्टियन रोल्डन"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. رولدان",
+                "bn": "সি. রোল্ডান",
+                "hi": "सी. रोल्डन"
+              }
+            }
+          },
+          "teamId": 22009,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jordan Morris",
+            "firstName": "Jordan",
+            "lastName": "Morris",
+            "slug": "jordan-morris",
+            "shortName": "J. Morris",
+            "position": "F",
+            "jerseyNumber": "13",
+            "height": 181,
+            "userCount": 618,
+            "gender": "M",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 772421,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 783129600,
+            "proposedMarketValueRaw": {
+              "value": 2800000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جوردان موريس",
+                "bn": "জর্ডান মরিস",
+                "hi": "जॉर्डन मॉरिस"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. موريس",
+                "bn": "জে. মরিস",
+                "hi": "जे. मॉरिस"
+              }
+            }
+          },
+          "teamId": 22009,
+          "shirtNumber": 16,
+          "jerseyNumber": "16",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "expectedGoalsOnTarget": 0,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        }
+      ],
+      "supportStaff": [],
+      "formation": "4-4-2",
+      "playerColor": {
+        "primary": "00007d",
+        "number": "ffffff",
+        "outline": "00007d",
+        "fancyNumber": "ffffff"
+      },
+      "goalkeeperColor": {
+        "primary": "ff3300",
+        "number": "000000",
+        "outline": "ff3300",
+        "fancyNumber": "222226"
+      },
+      "missingPlayers": [
+        {
+          "player": {
+            "name": "Sergiño Dest",
+            "firstName": "Sergino",
+            "lastName": "Dest",
+            "slug": "sergino-dest",
+            "shortName": "S. Dest",
+            "position": "D",
+            "jerseyNumber": "8",
+            "height": 173,
+            "userCount": 6278,
+            "gender": "M",
+            "sofascoreId": "sergino",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 906021,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 973209600,
+            "proposedMarketValueRaw": {
+              "value": 17200000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سيرجينيو ديست",
+                "bn": "সার্জিনো ডেস্ট",
+                "hi": "सर्जिनो डेस्ट"
+              },
+              "shortNameTranslation": {
+                "ar": "س. ديست",
+                "bn": "এস. ডেস্ট",
+                "hi": "एस. डेस्ट"
+              }
+            }
+          },
+          "type": "doubtful",
+          "reason": 1
+        },
+        {
+          "player": {
+            "name": "Weston McKennie",
+            "firstName": "Weston",
+            "lastName": "McKennie",
+            "slug": "weston-mckennie",
+            "shortName": "W. McKennie",
+            "position": "M",
+            "jerseyNumber": "22",
+            "height": 185,
+            "userCount": 8486,
+            "gender": "M",
+            "sofascoreId": "west.mckennie",
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "id": 881931,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 904262400,
+            "proposedMarketValueRaw": {
+              "value": 31000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ويستون ماكيني",
+                "bn": "ওয়েস্টন ম্যাককেনি",
+                "hi": "वेस्टन मैकेनी"
+              },
+              "shortNameTranslation": {
+                "ar": "و. ماكيني",
+                "bn": "ডব্লিউ. ম্যাককেনি",
+                "hi": "डब्लू. मैकेनी"
+              }
+            }
+          },
+          "type": "doubtful",
+          "reason": 1
+        }
+      ]
+    },
+    "statisticalVersion": null
+  },
+  "incidents": {
+    "incidents": [
+      {
+        "text": "FT",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": false,
+        "time": 90,
+        "addedTime": 999,
+        "timeSeconds": 5400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "length": 4,
+        "time": 90,
+        "addedTime": 0,
+        "reversedPeriodTime": 1,
+        "incidentType": "injuryTime"
+      },
+      {
+        "playerIn": {
+          "name": "Josh Sargent",
+          "firstName": "Josh",
+          "lastName": "Sargent",
+          "slug": "josh-sargent",
+          "shortName": "J. Sargent",
+          "position": "F",
+          "jerseyNumber": "9",
+          "height": 185,
+          "userCount": 1865,
+          "gender": "M",
+          "id": 880796,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 951004800,
+          "proposedMarketValueRaw": {
+            "value": 16300000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جوش سارجنت",
+              "bn": "জোশ সার্জেন্ট",
+              "hi": "जोश सार्जेंट"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سارجنت",
+              "bn": "জে. সার্জেন্ট",
+              "hi": "जे. सार्जेंट"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Haji Wright",
+          "firstName": "Haji",
+          "lastName": "Wright",
+          "slug": "haji-wright",
+          "shortName": "H. Wright",
+          "position": "F",
+          "jerseyNumber": "11",
+          "height": 193,
+          "userCount": 2401,
+          "gender": "M",
+          "id": 818391,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 890956800,
+          "proposedMarketValueRaw": {
+            "value": 14500000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هاجي رايت",
+              "bn": "হাজী রাইট",
+              "hi": "हाजी राइट"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. رايت",
+              "bn": "এইচ. রাইট",
+              "hi": "एच. राइट"
+            }
+          }
+        },
+        "id": 121461163,
+        "time": 83,
+        "injury": false,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 8,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Giovanni Reyna",
+          "firstName": "",
+          "lastName": "",
+          "slug": "giovanni-reyna",
+          "shortName": "G. Reyna",
+          "position": "M",
+          "jerseyNumber": "13",
+          "height": 185,
+          "userCount": 5104,
+          "gender": "M",
+          "sofascoreId": "gioareyna",
+          "id": 989056,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1037145600,
+          "proposedMarketValueRaw": {
+            "value": 4300000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيوفاني رينا",
+              "bn": "জিওভানি রেইনা",
+              "hi": "जियोवानी रेयना"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. رينا",
+              "bn": "জি রেইনা",
+              "hi": "जी. रेयना"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Tim Weah",
+          "firstName": "Tim",
+          "lastName": "Weah",
+          "slug": "tim-weah",
+          "shortName": "T. Weah",
+          "position": "M",
+          "jerseyNumber": "22",
+          "height": 185,
+          "userCount": 11638,
+          "gender": "M",
+          "sofascoreId": "timothyweah",
+          "id": 855810,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 951177600,
+          "proposedMarketValueRaw": {
+            "value": 18200000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "bn": "ওহ, টিমোথি",
+              "hi": "वेआह, टिमोथी"
+            },
+            "shortNameTranslation": {
+              "bn": "টি. ওহ",
+              "hi": "टी. वेआह"
+            }
+          }
+        },
+        "id": 121461162,
+        "time": 83,
+        "injury": false,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 8,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Marcus Rashford",
+          "firstName": "Marcus",
+          "lastName": "Rashford",
+          "slug": "marcus-rashford",
+          "shortName": "M. Rashford",
+          "position": "F",
+          "jerseyNumber": "14",
+          "height": 185,
+          "userCount": 379225,
+          "gender": "M",
+          "sofascoreId": "Rashford",
+          "id": 814590,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 878256000,
+          "proposedMarketValueRaw": {
+            "value": 38000000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماركوس راشفورد",
+              "bn": "মার্কাস রাশফোর্ড",
+              "hi": "मार्कस रैशफोर्ड"
+            },
+            "shortNameTranslation": {
+              "ar": "م. راشفورد",
+              "bn": "এম. রাশফোর্ড",
+              "hi": "एम. रैशफोर्ड"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Bukayo Saka",
+          "firstName": "Bukayo",
+          "lastName": "Saka",
+          "slug": "bukayo-saka",
+          "shortName": "B. Saka",
+          "position": "F",
+          "jerseyNumber": "7",
+          "height": 178,
+          "userCount": 193095,
+          "gender": "M",
+          "sofascoreId": "BSaka7",
+          "id": 934235,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 999648000,
+          "proposedMarketValueRaw": {
+            "value": 126000000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوكايو ساكا",
+              "bn": "বুকায়ো সাকা",
+              "hi": "बुकायो साका"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. ساكا",
+              "bn": "বি. সাকা",
+              "hi": "बी. साका"
+            }
+          }
+        },
+        "id": 121461156,
+        "time": 78,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 13,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Shaq Moore",
+          "firstName": "Shaq",
+          "lastName": "Moore",
+          "slug": "shaq-moore",
+          "shortName": "S. Moore",
+          "position": "D",
+          "jerseyNumber": "18",
+          "height": 180,
+          "userCount": 154,
+          "gender": "M",
+          "id": 813511,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 846892800,
+          "proposedMarketValueRaw": {
+            "value": 1500000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شاك مور",
+              "bn": "শাক মুর",
+              "hi": "शाक मूर"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. مور",
+              "bn": "এস. মুর",
+              "hi": "एस. मूर"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Sergiño Dest",
+          "firstName": "Sergino",
+          "lastName": "Dest",
+          "slug": "sergino-dest",
+          "shortName": "S. Dest",
+          "position": "D",
+          "jerseyNumber": "8",
+          "height": 173,
+          "userCount": 6276,
+          "gender": "M",
+          "sofascoreId": "sergino",
+          "id": 906021,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 973209600,
+          "proposedMarketValueRaw": {
+            "value": 17200000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيرجينيو ديست",
+              "bn": "সার্জিনো ডেস্ট",
+              "hi": "सर्जिनो डेस्ट"
+            },
+            "shortNameTranslation": {
+              "ar": "س. ديست",
+              "bn": "এস. ডেস্ট",
+              "hi": "एस. डेस्ट"
+            }
+          }
+        },
+        "id": 121461158,
+        "time": 78,
+        "injury": false,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 13,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Brenden Aaronson",
+          "firstName": "",
+          "lastName": "",
+          "slug": "brenden-aaronson",
+          "shortName": "B. Aaronson",
+          "position": "M",
+          "jerseyNumber": "11",
+          "height": 178,
+          "userCount": 2829,
+          "gender": "M",
+          "id": 973431,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 972172800,
+          "proposedMarketValueRaw": {
+            "value": 18700000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بريندن آرونسون",
+              "bn": "ব্রেন্ডেন অ্যারনসন",
+              "hi": "ब्रेंडन आरोनसन"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. آرونسون",
+              "bn": "বি. অ্যারনসন",
+              "hi": "बी. आरोनसन"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Weston McKennie",
+          "firstName": "Weston",
+          "lastName": "McKennie",
+          "slug": "weston-mckennie",
+          "shortName": "W. McKennie",
+          "position": "M",
+          "jerseyNumber": "22",
+          "height": 185,
+          "userCount": 8451,
+          "gender": "M",
+          "sofascoreId": "west.mckennie",
+          "id": 881931,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 904262400,
+          "proposedMarketValueRaw": {
+            "value": 31000000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ويستون ماكيني",
+              "bn": "ওয়েস্টন ম্যাককেনি",
+              "hi": "वेस्टन मैकेनी"
+            },
+            "shortNameTranslation": {
+              "ar": "و. ماكيني",
+              "bn": "ডব্লিউ. ম্যাককেনি",
+              "hi": "डब्लू. मैकेनी"
+            }
+          }
+        },
+        "id": 121461157,
+        "time": 77,
+        "injury": false,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 14,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Jordan Henderson",
+          "slug": "jordan-henderson",
+          "shortName": "J. Henderson",
+          "position": "M",
+          "jerseyNumber": "6",
+          "height": 183,
+          "userCount": 6422,
+          "gender": "M",
+          "sofascoreId": "jordanhenderson",
+          "id": 42694,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 645580800,
+          "proposedMarketValueRaw": {
+            "value": 2200000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جوردان هندرسون",
+              "bn": "জর্ডান হেন্ডারসন",
+              "hi": "जॉर्डन हेंडरसन"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. هندرسون",
+              "bn": "জে. হেন্ডারসন",
+              "hi": "जे. हेंडरसन"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Jude Bellingham",
+          "slug": "jude-bellingham",
+          "shortName": "J. Bellingham",
+          "position": "M",
+          "jerseyNumber": "5",
+          "height": 188,
+          "userCount": 1136550,
+          "gender": "M",
+          "sofascoreId": "JudeBell",
+          "id": 991011,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1056844800,
+          "proposedMarketValueRaw": {
+            "value": 132000000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جود بيلينغهام",
+              "bn": "জুড বেলিংহাম",
+              "hi": "जूड बेलिंघम"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بيلينغهام",
+              "bn": "জে. বেলিংহাম",
+              "hi": "जे. बेलिंघम"
+            }
+          }
+        },
+        "id": 121461135,
+        "time": 69,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 22,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Jack Grealish",
+          "firstName": "Jack",
+          "lastName": "Grealish",
+          "slug": "jack-grealish",
+          "shortName": "J. Grealish",
+          "position": "M",
+          "jerseyNumber": "18",
+          "height": 180,
+          "userCount": 57073,
+          "gender": "M",
+          "sofascoreId": "JGrealish",
+          "id": 189061,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 810691200,
+          "proposedMarketValueRaw": {
+            "value": 26000000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جاك غريليش",
+              "bn": "জ্যাক গ্রেলিশ",
+              "hi": "जैक ग्रेलिश"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. غريليش",
+              "bn": "জে গ্রেলিশ",
+              "hi": "जे. ग्रेलिश"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Raheem Sterling",
+          "firstName": "Raheem",
+          "lastName": "Sterling",
+          "slug": "raheem-sterling",
+          "shortName": "R. Sterling",
+          "position": "F",
+          "jerseyNumber": "19",
+          "height": 170,
+          "userCount": 36707,
+          "gender": "M",
+          "sofascoreId": "Sterling7",
+          "id": 138534,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 786844800,
+          "proposedMarketValueRaw": {
+            "value": 4800000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رحيم ستيرلينغ",
+              "bn": "রাহিম স্টার্লিং",
+              "hi": "रहीम स्टर्लिंग"
+            },
+            "shortNameTranslation": {
+              "ar": "ر. سترلينغ",
+              "bn": "আর. স্টার্লিং",
+              "hi": "आर. स्टर्लिंग"
+            }
+          }
+        },
+        "id": 121461134,
+        "time": 68,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 23,
+        "incidentType": "substitution"
+      },
+      {
+        "text": "HT",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": false,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "length": 1,
+        "time": 45,
+        "addedTime": 0,
+        "reversedPeriodTime": 1,
+        "incidentType": "injuryTime"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "ffffff",
+        "outline": "000000",
+        "fancyNumber": "ffffff"
+      },
+      "playerColor": {
+        "primary": "ffffff",
+        "number": "163c7d",
+        "outline": "ffffff",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "ff3300",
+        "number": "000000",
+        "outline": "ff3300",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "00007d",
+        "number": "ffffff",
+        "outline": "00007d",
+        "fancyNumber": "ffffff"
+      }
+    }
+  }
+}
