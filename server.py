@@ -47,6 +47,11 @@ _FILES_CACHE: list | None = None
 _FILES_TS: float = 0.0
 _FILES_TTL: float = 30.0
 
+# ── In-memory live-scores cache (rebuilt every 30 s) ───────────────────────
+_LIVE_CACHE: dict | None = None
+_LIVE_TS: float = 0.0
+_LIVE_TTL: float = 30.0
+
 
 def get_file_index() -> list:
     global _FILES_CACHE, _FILES_TS
@@ -159,6 +164,35 @@ class Handler(BaseHTTPRequestHandler):
             self.send_json({"files": get_file_index()})
             return
 
+        # ── live football scores ─────────────────────────────────────────────
+        if path == "/api/live":
+            global _LIVE_CACHE, _LIVE_TS
+            now = time.monotonic()
+            if _LIVE_CACHE is None or now - _LIVE_TS > _LIVE_TTL:
+                raw = proxy_get(f"{SOFASCORE_API}/sport/football/events/live")
+                if raw:
+                    try:
+                        _LIVE_CACHE = json.loads(raw)
+                        _LIVE_TS = now
+                    except Exception:
+                        pass
+            self.send_json(_LIVE_CACHE if _LIVE_CACHE else {"events": []})
+            return
+
+        # ── scheduled events for a date ─────────────────────────────────────
+        m = re.match(r"^/api/scheduled/(\d{4}-\d{2}-\d{2})$", path)
+        if m:
+            date = m.group(1)
+            raw = proxy_get(f"{SOFASCORE_API}/sport/football/scheduled-events/{date}")
+            if raw:
+                try:
+                    self.send_json(json.loads(raw))
+                    return
+                except Exception:
+                    pass
+            self.send_json({"events": []})
+            return
+
         # ── player profile JSON ─────────────────────────────────────────────
         m = re.match(r"^/api/player/(\d+)$", path)
         if m:
@@ -217,10 +251,10 @@ class Handler(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     CACHE.mkdir(parents=True, exist_ok=True)
-    print("Indexing output files…", end=" ", flush=True)
+    print("Indexing output files...", end=" ", flush=True)
     print(f"{len(get_file_index())} files indexed.")
     server = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
-    print(f"World Cup dashboard  →  http://localhost:{PORT}")
+    print(f"World Cup dashboard  ->  http://localhost:{PORT}")
     print("Press Ctrl+C to stop.\n")
     try:
         server.serve_forever()
